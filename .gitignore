@@ -2,3 +2,5 @@
 !.gitignore
 !kubejs/
 !config/
+!defaultconfigs/
+!patchouli_books/
