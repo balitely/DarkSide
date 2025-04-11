@@ -1,0 +1,8 @@
+{
+  "keys": [
+    "#minecraft:arrows"
+  ],
+  "pitch": 0.7,
+  "soundEvent": "minecraft:item.armor.equip_generic",
+  "volume": 0.3
+}

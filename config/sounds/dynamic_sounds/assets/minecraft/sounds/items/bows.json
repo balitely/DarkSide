@@ -1,0 +1,11 @@
+{
+  "keys": [
+    "minecraft:bow",
+    "minecraft:crossbow",
+    "magistuarmory:longbow",
+    "magistuarmory:heavy_crossbow",
+    "aquaculture:neptunium_bow",
+    "enigmaticaddons:dragon_bow"
+  ],
+  "soundEvent": "minecraft:item.armor.equip_iron"
+}

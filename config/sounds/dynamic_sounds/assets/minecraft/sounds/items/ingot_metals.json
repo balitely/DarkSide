@@ -1,0 +1,32 @@
+{
+  "keys": [
+    "minecraft:iron_ingot",
+    "minecraft:gold_ingot",
+    "minecraft:netherite_ingot",
+    "minecraft:copper_ingot",
+    "minecraft:iron_nugget",
+    "minecraft:gold_nugget",
+    "minecraft:netherite_scrap",
+    "minecraft:raw_gold",
+    "minecraft:raw_iron",
+    "minecraft:raw_copper",
+    "enigmaticlegacy:etherium_ingot",
+    "composite_material:dungeon_steel_ingot",
+    "composite_material:allay_steel_ingot",
+    "composite_material:etherite_ingot",
+    "composite_material:obsidian_steel_ingot",
+    "composite_material:perkin",
+    "composite_material:echoium_ingot",
+    "composite_material:prismarine_alloy_ingot",
+    "epicsamurai:silver_ingot",
+    "epicsamurai:amethyst_ingot",
+    "epicsamurai:quartz_ingot",
+    "fromtheshadows:diabolium_ingot",
+    "legendary_monsters:molten_metal_ingot",
+    "majruszsdifficulty:enderium_ingot",
+    "irons_spellbooks:arcane_ingot",
+    "aquaculture:neptunium_ingot",
+    "enigmaticlegacy:etherium_ingot"
+  ],
+  "soundEvent": "minecraft:block.metal.break"
+}
