@@ -1,0 +1,37 @@
+{
+"rogues:iron_sickle": [
+    {
+      "attribute": "rpgsp:spregenperattack",
+      "modify": 6.5,
+      "operation": "ADDITION"
+    }
+  ],
+"rogues:golden_sickle": [
+    {
+      "attribute": "rpgsp:spregenperattack",
+      "modify": 6.5,
+      "operation": "ADDITION"
+    }
+  ],
+"rogues:diamond_sickle": [
+    {
+      "attribute": "rpgsp:spregenperattack",
+      "modify": 6.5,
+      "operation": "ADDITION"
+    }
+  ],
+"rogues:netherite_sickle": [
+    {
+      "attribute": "rpgsp:spregenperattack",
+      "modify": 6.5,
+      "operation": "ADDITION"
+    }
+  ],
+"magistuarmoryaddon:steel_sickle": [
+    {
+      "attribute": "rpgsp:spregenperattack",
+      "modify": 6.5,
+      "operation": "ADDITION"
+    }
+  ]
+}

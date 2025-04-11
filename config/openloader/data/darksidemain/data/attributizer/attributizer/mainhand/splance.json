@@ -1,0 +1,65 @@
+{
+"magistuarmory:diamond_pike": [
+    {
+      "attribute": "rpgsp:spregenperattack",
+      "modify": 29.0,
+      "operation": "ADDITION"
+    }
+  ],
+"magistuarmory:iron_pike": [
+    {
+      "attribute": "rpgsp:spregenperattack",
+      "modify": 29.0,
+      "operation": "ADDITION"
+    }
+  ],
+"magistuarmory:wood_pike": [
+    {
+      "attribute": "rpgsp:spregenperattack",
+      "modify": 29.0,
+      "operation": "ADDITION"
+    }
+  ],
+"magistuarmory:stone_pike": [
+    {
+      "attribute": "rpgsp:spregenperattack",
+      "modify": 29.0,
+      "operation": "ADDITION"
+    }
+  ],
+"magistuarmory:gold_pike": [
+    {
+      "attribute": "rpgsp:spregenperattack",
+      "modify": 29.0,
+      "operation": "ADDITION"
+    }
+  ],
+"magistuarmory:copper_pike": [
+    {
+      "attribute": "rpgsp:spregenperattack",
+      "modify": 29.0,
+      "operation": "ADDITION"
+    }
+  ],
+"magistuarmory:netherite_pike": [
+    {
+      "attribute": "rpgsp:spregenperattack",
+      "modify": 29.0,
+      "operation": "ADDITION"
+    }
+  ],
+"magistuarmory:silver_pike": [
+    {
+      "attribute": "rpgsp:spregenperattack",
+      "modify": 29.0,
+      "operation": "ADDITION"
+    }
+  ],
+"magistuarmory:steel_pike": [
+    {
+      "attribute": "rpgsp:spregenperattack",
+      "modify": 29.0,
+      "operation": "ADDITION"
+    }
+  ]
+}

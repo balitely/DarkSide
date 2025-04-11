@@ -1,0 +1,30 @@
+{
+"simplyswords:iron_greataxe": [
+    {
+      "attribute": "rpgsp:spregenperattack",
+      "modify": 38.0,
+      "operation": "ADDITION"
+    }
+  ],
+"simplyswords:gold_greataxe": [
+    {
+      "attribute": "rpgsp:spregenperattack",
+      "modify": 38.0,
+      "operation": "ADDITION"
+    }
+  ],
+"simplyswords:diamond_greataxe": [
+    {
+      "attribute": "rpgsp:spregenperattack",
+      "modify": 38.0,
+      "operation": "ADDITION"
+    }
+  ],
+"simplyswords:netherite_greataxe": [
+    {
+      "attribute": "rpgsp:spregenperattack",
+      "modify": 38.0,
+      "operation": "ADDITION"
+    }
+  ]
+}

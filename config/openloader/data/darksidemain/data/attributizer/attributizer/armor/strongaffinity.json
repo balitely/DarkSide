@@ -1,0 +1,296 @@
+{
+"minecraft:golden_helmet":[
+    {
+      "attribute": "rpgmana:mana",
+      "modify": 0.17,
+      "operation": "MULTIPLY_TOTAL"
+    },
+    {
+      "attribute": "rpgmana:manaregen",
+      "modify": 0.17,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+"minecraft:golden_chestplate":[
+    {
+      "attribute": "rpgmana:mana",
+      "modify": 0.17,
+      "operation": "MULTIPLY_TOTAL"
+    },
+    {
+      "attribute": "rpgmana:manaregen",
+      "modify": 0.17,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+"minecraft:golden_leggings":[
+    {
+      "attribute": "rpgmana:mana",
+      "modify": 0.17,
+      "operation": "MULTIPLY_TOTAL"
+    },
+    {
+      "attribute": "rpgmana:manaregen",
+      "modify": 0.17,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+"minecraft:golden_boots":[
+    {
+      "attribute": "rpgmana:mana",
+      "modify": 0.17,
+      "operation": "MULTIPLY_TOTAL"
+    },
+    {
+      "attribute": "rpgmana:manaregen",
+      "modify": 0.17,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+
+"composite_material:amethyst_helmet":[
+    {
+        "attribute": "extraspellattributes:reabsorption",
+        "modify": 0.17,
+        "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+"composite_material:amethyst_chestplate":[
+    {
+      "attribute": "rpgmana:mana",
+      "modify": 0.17,
+      "operation": "MULTIPLY_TOTAL"
+    },
+    {
+        "attribute": "extraspellattributes:reabsorption",
+        "modify": 0.17,
+        "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+"composite_material:amethyst_leggings":[
+    {
+      "attribute": "rpgmana:mana",
+      "modify": 0.17,
+      "operation": "MULTIPLY_TOTAL"
+    },
+    {
+        "attribute": "extraspellattributes:reabsorption",
+        "modify": 0.17,
+        "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+"composite_material:amethyst_boots":[
+    {
+      "attribute": "rpgmana:mana",
+      "modify": 0.17,
+      "operation": "MULTIPLY_TOTAL"
+    },
+    {
+        "attribute": "extraspellattributes:reabsorption",
+        "modify": 0.17,
+        "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+
+"immersive_armors:bone_helmet":[
+    {
+      "attribute": "rpgmana:manaregen",
+      "modify": 0.17,
+      "operation": "MULTIPLY_TOTAL"
+    },
+    {
+        "attribute": "extraspellattributes:reabsorption",
+        "modify": 0.17,
+        "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+"immersive_armors:bone_chestplate":[
+    {
+      "attribute": "rpgmana:mana",
+      "modify": 0.17,
+      "operation": "MULTIPLY_TOTAL"
+    },
+    {
+      "attribute": "rpgmana:manaregen",
+      "modify": 0.17,
+      "operation": "MULTIPLY_TOTAL"
+    },
+    {
+        "attribute": "extraspellattributes:reabsorption",
+        "modify": 0.17,
+        "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+"immersive_armors:bone_leggings":[
+    {
+      "attribute": "rpgmana:mana",
+      "modify": 0.17,
+      "operation": "MULTIPLY_TOTAL"
+    },
+    {
+      "attribute": "rpgmana:manaregen",
+      "modify": 0.17,
+      "operation": "MULTIPLY_TOTAL"
+    },
+    {
+        "attribute": "extraspellattributes:reabsorption",
+        "modify": 0.17,
+        "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+"immersive_armors:bone_boots":[
+    {
+      "attribute": "rpgmana:mana",
+      "modify": 0.17,
+      "operation": "MULTIPLY_TOTAL"
+    },
+    {
+      "attribute": "rpgmana:manaregen",
+      "modify": 0.17,
+      "operation": "MULTIPLY_TOTAL"
+    },
+    {
+        "attribute": "extraspellattributes:reabsorption",
+        "modify": 0.17,
+        "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+
+"majruszsdifficulty:tattered_helmet":[
+    {
+      "attribute": "rpgmana:mana",
+      "modify": 0.17,
+      "operation": "MULTIPLY_TOTAL"
+    },
+    {
+      "attribute": "rpgmana:manaregen",
+      "modify": 0.17,
+      "operation": "MULTIPLY_TOTAL"
+    },
+    {
+        "attribute": "extraspellattributes:reabsorption",
+        "modify": 0.17,
+        "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+"majruszsdifficulty:tattered_chestplate":[
+    {
+      "attribute": "rpgmana:mana",
+      "modify": 0.17,
+      "operation": "MULTIPLY_TOTAL"
+    },
+    {
+      "attribute": "rpgmana:manaregen",
+      "modify": 0.17,
+      "operation": "MULTIPLY_TOTAL"
+    },
+    {
+        "attribute": "extraspellattributes:reabsorption",
+        "modify": 0.17,
+        "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+"majruszsdifficulty:tattered_leggings":[
+    {
+      "attribute": "rpgmana:mana",
+      "modify": 0.17,
+      "operation": "MULTIPLY_TOTAL"
+    },
+    {
+      "attribute": "rpgmana:manaregen",
+      "modify": 0.17,
+      "operation": "MULTIPLY_TOTAL"
+    },
+    {
+        "attribute": "extraspellattributes:reabsorption",
+        "modify": 0.17,
+        "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+"majruszsdifficulty:tattered_boots":[
+    {
+      "attribute": "rpgmana:mana",
+      "modify": 0.17,
+      "operation": "MULTIPLY_TOTAL"
+    },
+    {
+      "attribute": "rpgmana:manaregen",
+      "modify": 0.17,
+      "operation": "MULTIPLY_TOTAL"
+    },
+    {
+        "attribute": "extraspellattributes:reabsorption",
+        "modify": 0.17,
+        "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+
+"mutantmonsters:mutant_skeleton_skull":[
+    {
+      "attribute": "rpgmana:mana",
+      "modify": 0.17,
+      "operation": "MULTIPLY_TOTAL"
+    },
+    {
+      "attribute": "rpgmana:manaregen",
+      "modify": 0.17,
+      "operation": "MULTIPLY_TOTAL"
+    },
+    {
+        "attribute": "extraspellattributes:reabsorption",
+        "modify": 0.17,
+        "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+"mutantmonsters:mutant_skeleton_chestplate":[
+    {
+      "attribute": "rpgmana:mana",
+      "modify": 0.17,
+      "operation": "MULTIPLY_TOTAL"
+    },
+    {
+      "attribute": "rpgmana:manaregen",
+      "modify": 0.17,
+      "operation": "MULTIPLY_TOTAL"
+    },
+    {
+        "attribute": "extraspellattributes:reabsorption",
+        "modify": 0.17,
+        "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+"mutantmonsters:mutant_skeleton_leggings":[
+    {
+      "attribute": "rpgmana:mana",
+      "modify": 0.17,
+      "operation": "MULTIPLY_TOTAL"
+    },
+    {
+      "attribute": "rpgmana:manaregen",
+      "modify": 0.17,
+      "operation": "MULTIPLY_TOTAL"
+    },
+    {
+        "attribute": "extraspellattributes:reabsorption",
+        "modify": 0.17,
+        "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+"mutantmonsters:mutant_skeleton_boots":[
+    {
+      "attribute": "rpgmana:mana",
+      "modify": 0.17,
+      "operation": "MULTIPLY_TOTAL"
+    },
+    {
+      "attribute": "rpgmana:manaregen",
+      "modify": 0.17,
+      "operation": "MULTIPLY_TOTAL"
+    },
+    {
+        "attribute": "extraspellattributes:reabsorption",
+        "modify": 0.17,
+        "operation": "MULTIPLY_TOTAL"
+    }
+  ]
+}

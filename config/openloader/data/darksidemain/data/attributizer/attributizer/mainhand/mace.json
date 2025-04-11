@@ -1,0 +1,21 @@
+{
+"magistuarmoryaddon:steel_round_mace": [
+  {
+    "attribute": "minecraft:generic.attack_knockback",
+    "modify": 0.5,
+    "operation": "MULTIPLY_TOTAL"
+  }
+  ],
+"fantasy_weapons:weapon_savage_hammer": [
+  {
+    "attribute": "minecraft:generic.attack_damage",
+    "modify": 2.5,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "minecraft:generic.attack_speed",
+    "modify": -0.5,
+    "operation": "ADDITION"
+  }
+  ]
+}

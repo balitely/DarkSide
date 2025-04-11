@@ -1,0 +1,65 @@
+{
+"magistuarmory:gold_shortsword": [
+    {
+      "attribute": "rpgsp:spregenperattack",
+      "modify": 7.5,
+      "operation": "ADDITION"
+    }
+  ],
+"magistuarmory:wood_shortsword": [
+    {
+      "attribute": "rpgsp:spregenperattack",
+      "modify": 7.5,
+      "operation": "ADDITION"
+    }
+  ],
+"magistuarmory:stone_shortsword": [
+    {
+      "attribute": "rpgsp:spregenperattack",
+      "modify": 7.5,
+      "operation": "ADDITION"
+    }
+  ],
+"magistuarmory:iron_shortsword": [
+    {
+      "attribute": "rpgsp:spregenperattack",
+      "modify": 7.5,
+      "operation": "ADDITION"
+    }
+  ],
+"magistuarmory:copper_shortsword": [
+    {
+      "attribute": "rpgsp:spregenperattack",
+      "modify": 7.5,
+      "operation": "ADDITION"
+    }
+  ],
+"magistuarmory:diamond_shortsword": [
+    {
+      "attribute": "rpgsp:spregenperattack",
+      "modify": 7.5,
+      "operation": "ADDITION"
+    }
+  ],
+"magistuarmory:netherite_shortsword": [
+    {
+      "attribute": "rpgsp:spregenperattack",
+      "modify": 7.5,
+      "operation": "ADDITION"
+    }
+  ],
+"magistuarmory:silver_shortsword": [
+    {
+      "attribute": "rpgsp:spregenperattack",
+      "modify": 7.5,
+      "operation": "ADDITION"
+    }
+  ],
+"magistuarmory:steel_shortsword": [
+    {
+      "attribute": "rpgsp:spregenperattack",
+      "modify": 7.5,
+      "operation": "ADDITION"
+    }
+  ]
+}

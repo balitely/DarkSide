@@ -1,0 +1,44 @@
+{
+"simplyswords:netherite_spear": [
+    {
+      "attribute": "rpgsp:spregenperattack",
+      "modify": 20.0,
+      "operation": "ADDITION"
+    }
+  ],
+"simplyswords:diamond_spear": [
+    {
+      "attribute": "rpgsp:spregenperattack",
+      "modify": 20.0,
+      "operation": "ADDITION"
+    }
+  ],
+"simplyswords:gold_spear": [
+    {
+      "attribute": "rpgsp:spregenperattack",
+      "modify": 20.0,
+      "operation": "ADDITION"
+    }
+  ],
+"simplyswords:iron_spear": [
+    {
+      "attribute": "rpgsp:spregenperattack",
+      "modify": 20.0,
+      "operation": "ADDITION"
+    }
+  ],
+"magistuarmory:pitchfork": [
+    {
+      "attribute": "rpgsp:spregenperattack",
+      "modify": 20.0,
+      "operation": "ADDITION"
+    }
+  ],
+"fantasy_weapons:weapon_savage_spear": [
+    {
+      "attribute": "rpgsp:spregenperattack",
+      "modify": 20.0,
+      "operation": "ADDITION"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+"magistuarmory:pitchfork": [
+    {
+      "attribute": "minecraft:generic.attack_speed",
+      "modify": 0.3,
+      "operation": "ADDITION"
+    }
+  ],
+"fantasy_weapons:weapon_savage_spear": [
+    {
+      "attribute": "minecraft:generic.attack_speed",
+      "modify": -0.3,
+      "operation": "ADDITION"
+    }
+  ]
+}

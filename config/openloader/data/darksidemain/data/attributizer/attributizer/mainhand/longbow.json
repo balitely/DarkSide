@@ -1,0 +1,16 @@
+{      
+"mcdw:bow_hunting_bow": [
+  {
+    "attribute": "ranged_weapon:damage",
+    "modify": 4.0,
+    "operation": "ADDITION"
+  }
+  ],
+"magistuarmory:longbow": [
+  {
+    "attribute": "ranged_weapon:damage",
+    "modify": 9.0,
+    "operation": "ADDITION"
+  }
+  ]
+}

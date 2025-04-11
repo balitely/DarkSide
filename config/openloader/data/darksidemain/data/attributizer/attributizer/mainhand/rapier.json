@@ -1,0 +1,87 @@
+{
+"simplyswords:netherite_rapier": [
+    {
+      "attribute": "minecraft:generic.attack_speed",
+      "modify": -0.5,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": -2.1,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "iguanatweaksreborn:piercing_damage",
+      "modify": 2.1,
+      "operation": "ADDITION"
+    }
+  ],
+"simplyswords:diamond_rapier": [
+    {
+      "attribute": "minecraft:generic.attack_speed",
+      "modify": -0.5,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": -1.8,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "iguanatweaksreborn:piercing_damage",
+      "modify": 1.8,
+      "operation": "ADDITION"
+    }
+  ],
+"simplyswords:gold_rapier": [
+    {
+      "attribute": "minecraft:generic.attack_speed",
+      "modify": -0.5,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": -0.9,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "iguanatweaksreborn:piercing_damage",
+      "modify": 0.9,
+      "operation": "ADDITION"
+    }
+  ],
+"simplyswords:iron_rapier": [
+    {
+      "attribute": "minecraft:generic.attack_speed",
+      "modify": -0.5,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": -1.5,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "iguanatweaksreborn:piercing_damage",
+      "modify": 1.5,
+      "operation": "ADDITION"
+    }
+  ],
+"magistuarmoryaddon:steel_rapier": [
+    {
+      "attribute": "minecraft:generic.attack_speed",
+      "modify": 0.1,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": -2.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "iguanatweaksreborn:piercing_damage",
+      "modify": 2.0,
+      "operation": "ADDITION"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+"magistuarmory:netherite_zweihander": [
+    {
+      "attribute": "rpgsp:spregenperattack",
+      "modify": 35.0,
+      "operation": "ADDITION"
+    }
+  ],
+"magistuarmory:copper_zweihander": [
+    {
+      "attribute": "rpgsp:spregenperattack",
+      "modify": 35.0,
+      "operation": "ADDITION"
+    }
+  ],
+"magistuarmory:diamond_zweihander": [
+    {
+      "attribute": "rpgsp:spregenperattack",
+      "modify": 35.0,
+      "operation": "ADDITION"
+    }
+  ],
+"magistuarmory:gold_zweihander": [
+    {
+      "attribute": "rpgsp:spregenperattack",
+      "modify": 35.0,
+      "operation": "ADDITION"
+    }
+  ],
+"magistuarmory:stone_zweihander": [
+    {
+      "attribute": "rpgsp:spregenperattack",
+      "modify": 35.0,
+      "operation": "ADDITION"
+    }
+  ],
+"magistuarmory:wood_zweihander": [
+    {
+      "attribute": "rpgsp:spregenperattack",
+      "modify": 35.0,
+      "operation": "ADDITION"
+    }
+  ],
+"magistuarmory:iron_zweihander": [
+    {
+      "attribute": "rpgsp:spregenperattack",
+      "modify": 35.0,
+      "operation": "ADDITION"
+    }
+  ],
+"magistuarmory:silver_zweihander": [
+    {
+      "attribute": "rpgsp:spregenperattack",
+      "modify": 35.0,
+      "operation": "ADDITION"
+    }
+  ],
+"fantasy_weapons:weapon_sharp_sword": [
+    {
+      "attribute": "rpgsp:spregenperattack",
+      "modify": 35.0,
+      "operation": "ADDITION"
+    }
+  ],
+"fantasy_weapons:weapon_cursed_blade": [
+    {
+      "attribute": "rpgsp:spregenperattack",
+      "modify": 35.0,
+      "operation": "ADDITION"
+    }
+  ],
+"magistuarmory:steel_zweihander": [
+    {
+      "attribute": "rpgsp:spregenperattack",
+      "modify": 35.0,
+      "operation": "ADDITION"
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+"minecraft:wooden_sword": [
+    {
+      "attribute": "rpgsp:spregenperattack",
+      "modify": 8.0,
+      "operation": "ADDITION"
+    }
+  ],
+"minecraft:golden_sword": [
+    {
+      "attribute": "rpgsp:spregenperattack",
+      "modify": 8.0,
+      "operation": "ADDITION"
+    }
+  ],
+"minecraft:diamond_sword": [
+    {
+      "attribute": "rpgsp:spregenperattack",
+      "modify": 8.0,
+      "operation": "ADDITION"
+    }
+  ],
+"minecraft:stone_sword": [
+    {
+      "attribute": "rpgsp:spregenperattack",
+      "modify": 8.0,
+      "operation": "ADDITION"
+    }
+  ],
+"composite_material:flint_sword": [
+    {
+      "attribute": "rpgsp:spregenperattack",
+      "modify": 8.0,
+      "operation": "ADDITION"
+    }
+  ],
+"composite_material:copper_sword": [
+    {
+      "attribute": "rpgsp:spregenperattack",
+      "modify": 8.0,
+      "operation": "ADDITION"
+    }
+  ],
+"minecraft:iron_sword": [
+    {
+      "attribute": "rpgsp:spregenperattack",
+      "modify": 8.0,
+      "operation": "ADDITION"
+    }
+  ],
+"composite_material:obsidian_sword": [
+    {
+      "attribute": "rpgsp:spregenperattack",
+      "modify": 8.0,
+      "operation": "ADDITION"
+    }
+  ],
+"minecraft:netherite_sword": [
+    {
+      "attribute": "rpgsp:spregenperattack",
+      "modify": 8.0,
+      "operation": "ADDITION"
+    }
+  ],
+"magistuarmoryaddon:steel_arming_sword_type_xiv": [
+    {
+      "attribute": "rpgsp:spregenperattack",
+      "modify": 8.0,
+      "operation": "ADDITION"
+    }
+  ],
+"magistuarmoryaddon:steel_arming_sword_type_xv": [
+    {
+      "attribute": "rpgsp:spregenperattack",
+      "modify": 8.0,
+      "operation": "ADDITION"
+    }
+  ],
+"magistuarmoryaddon:steel_arming_sword_type_xiii": [
+    {
+      "attribute": "rpgsp:spregenperattack",
+      "modify": 8.0,
+      "operation": "ADDITION"
+    }
+  ],
+"miningmaster:power_pyrite_sword": [
+    {
+      "attribute": "rpgsp:spregenperattack",
+      "modify": 8.0,
+      "operation": "ADDITION"
+    }
+  ],
+"miningmaster:lucky_citrine_sword": [
+    {
+      "attribute": "rpgsp:spregenperattack",
+      "modify": 8.0,
+      "operation": "ADDITION"
+    }
+  ],
+"miningmaster:spirit_garnet_sword": [
+    {
+      "attribute": "rpgsp:spregenperattack",
+      "modify": 8.0,
+      "operation": "ADDITION"
+    }
+  ],
+"miningmaster:ice_sapphire_sword": [
+    {
+      "attribute": "rpgsp:spregenperattack",
+      "modify": 8.0,
+      "operation": "ADDITION"
+    }
+  ],
+"miningmaster:fire_ruby_sword": [
+    {
+      "attribute": "rpgsp:spregenperattack",
+      "modify": 8.0,
+      "operation": "ADDITION"
+    }
+  ],
+"fantasy_weapons:weapon_old_blade": [
+    {
+      "attribute": "rpgsp:spregenperattack",
+      "modify": 8.0,
+      "operation": "ADDITION"
+    }
+  ],
+"composite_material:rusted_copper_sword": [
+    {
+      "attribute": "rpgsp:spregenperattack",
+      "modify": 8.0,
+      "operation": "ADDITION"
+    }
+  ],
+"composite_material:amethyst_sword": [
+    {
+      "attribute": "rpgsp:spregenperattack",
+      "modify": 8.0,
+      "operation": "ADDITION"
+    }
+  ]
+}

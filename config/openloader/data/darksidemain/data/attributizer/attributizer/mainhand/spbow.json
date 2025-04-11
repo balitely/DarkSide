@@ -1,0 +1,121 @@
+{
+"archers:netherite_shortbow": [
+    {
+      "attribute": "rpgsp:skillpowerregen",
+      "modify": 10.0,
+      "operation": "ADDITION"
+    }
+  ],
+"archers:mechanic_shortbow": [
+    {
+      "attribute": "rpgsp:skillpowerregen",
+      "modify": 10.0,
+      "operation": "ADDITION"
+    }
+  ],
+"minecraft:bow": [
+    {
+      "attribute": "rpgsp:skillpowerregen",
+      "modify": 10.0,
+      "operation": "ADDITION"
+    }
+  ],   
+"mcdw:bow_bonebow": [
+    {
+      "attribute": "rpgsp:skillpowerregen",
+      "modify": 10.0,
+      "operation": "ADDITION"
+    }
+  ],
+"mcdw:bow_shortbow": [
+    {
+      "attribute": "rpgsp:skillpowerregen",
+      "modify": 10.0,
+      "operation": "ADDITION"
+    }
+  ],  
+"archers:royal_longbow": [
+    {
+      "attribute": "rpgsp:skillpowerregen",
+      "modify": 10.0,
+      "operation": "ADDITION"
+    }
+  ],
+"archers:composite_longbow": [
+    {
+      "attribute": "rpgsp:skillpowerregen",
+      "modify": 10.0,
+      "operation": "ADDITION"
+    }
+  ],
+"mcdw:bow_hunting_bow": [
+    {
+      "attribute": "rpgsp:skillpowerregen",
+      "modify": 10.0,
+      "operation": "ADDITION"
+    }
+  ],
+"magistuarmory:longbow": [
+    {
+      "attribute": "rpgsp:skillpowerregen",
+      "modify": 10.0,
+      "operation": "ADDITION"
+    }
+  ], 
+"archers:netherite_rapid_crossbow": [
+    {
+      "attribute": "rpgsp:skillpowerregen",
+      "modify": 10.0,
+      "operation": "ADDITION"
+    }
+  ],
+"archers:rapid_crossbow": [
+    {
+      "attribute": "rpgsp:skillpowerregen",
+      "modify": 10.0,
+      "operation": "ADDITION"
+    }
+  ],
+"minecraft:crossbow": [
+    {
+      "attribute": "rpgsp:skillpowerregen",
+      "modify": 10.0,
+      "operation": "ADDITION"
+    }
+  ],
+"mcdw:crossbow_dual_crossbow": [
+    {
+      "attribute": "rpgsp:skillpowerregen",
+      "modify": 10.0,
+      "operation": "ADDITION"
+    }
+  ],
+"archers:netherite_heavy_crossbow": [
+    {
+      "attribute": "rpgsp:skillpowerregen",
+      "modify": 10.0,
+      "operation": "ADDITION"
+    }
+  ],
+"archers:heavy_crossbow": [
+    {
+      "attribute": "rpgsp:skillpowerregen",
+      "modify": 10.0,
+      "operation": "ADDITION"
+    }
+  ],
+"mcdw:crossbow_butterfly_crossbow": [
+    {
+      "attribute": "rpgsp:skillpowerregen",
+      "modify": 10.0,
+      "operation": "ADDITION"
+    }
+  ],
+"magistuarmory:heavy_crossbow": [
+    {
+      "attribute": "rpgsp:skillpowerregen",
+      "modify": 10.0,
+      "operation": "ADDITION"
+    }
+  ]
+}

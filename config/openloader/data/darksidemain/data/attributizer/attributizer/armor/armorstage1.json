@@ -1,0 +1,191 @@
+{
+  "magistuarmory:greathelm":[
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 1,
+      "operation": "ADDITION"
+    }
+  ],
+  "magistuarmory:crusader_chestplate":[
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 1,
+      "operation": "ADDITION"
+    }
+  ],
+  "magistuarmory:crusader_leggings":[
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 1,
+      "operation": "ADDITION"
+    }
+  ],
+  "magistuarmory:crusader_boots":[
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 2,
+      "operation": "ADDITION"
+    }
+  ],
+  "magistuarmory:face_helmet":[
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 2,
+      "operation": "ADDITION"
+    }
+  ],
+  "slavicarmory:rus_chainmail_chestplate":[
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 1,
+      "operation": "ADDITION"
+    }
+  ],
+  "slavicarmory:rus_chainmail_coif":[
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 1,
+      "operation": "ADDITION"
+    }
+  ],
+  "slavicarmory:rus_chainmail_leggings":[
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 1,
+      "operation": "ADDITION"
+    }
+  ],
+  "slavicarmory:rus_chainmail_boots":[
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 1,
+      "operation": "ADDITION"
+    }
+  ],
+  "rogues:rogue_armor_head":[
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 1,
+      "operation": "ADDITION"
+    }
+  ],
+  "rogues:rogue_armor_chest":[
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 2,
+      "operation": "ADDITION"
+    }
+  ],
+  "rogues:rogue_armor_legs":[
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 1,
+      "operation": "ADDITION"
+    }
+  ],
+  "rogues:rogue_armor_feet":[
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 1,
+      "operation": "ADDITION"
+    }
+  ],
+  "archers:archer_armor_chest":[
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 1,
+      "operation": "ADDITION"
+    }
+  ],
+  "archers:archer_armor_legs":[
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 1,
+      "operation": "ADDITION"
+    }
+  ],
+  "magistuarmory:bascinet":[
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 1,
+      "operation": "ADDITION"
+    }
+  ],
+  "magistuarmory:xivcenturyknight_chestplate":[
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 1,
+      "operation": "ADDITION"
+    }
+  ],
+  "magistuarmory:xivcenturyknight_leggings":[
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 1,
+      "operation": "ADDITION"
+    }
+  ],
+  "magistuarmory:xivcenturyknight_boots":[
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 1,
+      "operation": "ADDITION"
+    }
+  ],
+  "magistuarmory:rustedgreathelm":[
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 1,
+      "operation": "ADDITION"
+    }
+  ],
+  "magistuarmory:rustedcrusader_chestplate":[
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 1,
+      "operation": "ADDITION"
+    }
+  ],
+  "magistuarmory:rustedcrusader_boots":[
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 1,
+      "operation": "ADDITION"
+    }
+  ],
+  "mutantmonsters:mutant_skeleton_chestplate":[
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": -1,
+      "operation": "ADDITION"
+    }
+  ],
+  "composite_material:obsidian_helmet":[
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 1,
+      "operation": "ADDITION"
+    }
+  ],
+  "composite_material:obsidian_chestplate":[
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 2,
+      "operation": "ADDITION"
+    }
+  ],
+  "composite_material:obsidian_leggings":[
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 2,
+      "operation": "ADDITION"
+    }
+  ],
+  "composite_material:obsidian_boots":[
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 1,
+      "operation": "ADDITION"
+    }
+  ]
+}

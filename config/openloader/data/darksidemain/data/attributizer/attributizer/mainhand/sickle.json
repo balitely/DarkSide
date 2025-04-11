@@ -1,0 +1,37 @@
+{
+"rogues:iron_sickle": [
+    {
+      "attribute": "spell_power:soul",
+      "modify": 6.0,
+      "operation": "ADDITION"
+    }
+  ],
+"rogues:golden_sickle": [
+    {
+      "attribute": "spell_power:soul",
+      "modify": 7.0,
+      "operation": "ADDITION"
+    }
+  ],
+"rogues:diamond_sickle": [
+    {
+      "attribute": "spell_power:soul",
+      "modify": 8.0,
+      "operation": "ADDITION"
+    }
+  ],
+"rogues:netherite_sickle": [
+    {
+      "attribute": "spell_power:soul",
+      "modify": 9.0,
+      "operation": "ADDITION"
+    }
+  ],
+"magistuarmoryaddon:steel_sickle": [
+    {
+      "attribute": "spell_power:soul",
+      "modify": 8.0,
+      "operation": "ADDITION"
+    }
+  ]
+}
