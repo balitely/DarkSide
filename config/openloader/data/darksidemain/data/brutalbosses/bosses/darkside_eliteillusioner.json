@@ -1,0 +1,32 @@
+{
+  "entity": "minecraft:illusioner",
+  "name": "精英幻术师",
+  "visualscale": 1.2,
+  "experience": 500,
+  "effects": {},
+  "attributes": {
+    "generic.max_health": 2500,
+    "generic.follow_range": 24,
+    "generic.knockback_resistance": 2,
+    "generic.attack_damage": 10
+  },
+  "customattributes": {
+  },
+  "gear": {
+    "mainhand": "{id: \"archers:composite_longbow\", Count: 1b, tag: {Damage: 0}}",
+    "helmet": "{id: \"minecraft:chainmail_helmet\", Count: 1b, tag: {Damage: 0}}",
+    "chestplate": "{id: \"minecraft:chainmail_chestplate\", Count: 1b, tag: {Damage: 0}}",
+    "leggings": "{id: \"minecraft:chainmail_leggings\", Count: 1b, tag: {Damage: 0}}",
+    "feet": "{id: \"minecraft:chainmail_boots\", Count: 1b, tag: {Damage: 0}}"
+  },
+  "ai-goals": {
+    "minecraft:target": {
+    },
+    "brutalbosses:runcommand": {
+      "healthinterval": "100-0", 
+      "cooldown": 30, 
+      "command": "tp @s ~-5 ~ ~-5"
+    }
+  },
+  "spawnatchest": {}
+}

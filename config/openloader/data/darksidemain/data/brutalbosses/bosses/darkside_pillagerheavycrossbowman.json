@@ -1,0 +1,44 @@
+{
+  "entity": "minecraft:pillager",
+  "name": "劫掠者重装射手",
+  "visualscale": 1.2,
+  "experience": 500,
+  "effects": {},
+  "attributes": {
+    "generic.max_health": 2500,
+    "generic.follow_range": 24,
+    "generic.knockback_resistance": 2,
+    "generic.attack_damage": 10
+  },
+  "customattributes": {
+  },
+  "gear": {
+    "mainhand": "{id: \"archers:heavy_crossbow\", Count: 1b, tag: {Damage: 0}}",
+    "helmet": "{id: \"magistuarmory:kettlehat\", Count: 1b, tag: {Damage: 0}}",
+    "chestplate": "{id: \"magistuarmory:platemail_chestplate\", Count: 1b, tag: {Damage: 0}}",
+    "leggings": "{id: \"magistuarmory:platemail_leggings\", Count: 1b, tag: {Damage: 0}}",
+    "feet": "{id: \"magistuarmory:platemail_boots\", Count: 1b, tag: {Damage: 0}}"
+  },
+  "ai-goals": {
+    "minecraft:crossbow": {
+    },
+    "minecraft:randomwalk": {
+    },
+    "minecraft:target": {
+    },
+    "minecraft:meleeattack": {
+    },
+    "brutalbosses:charge": {
+      "mindist": 1,
+      "duration": 5,
+      "interval": 50
+    },
+    "brutalbosses:changegear": {
+      "healthinterval": "30-0",
+      "gear": {  
+        "mainhand": "{id: \"magistuarmoryaddon:steel_arming_sword_type_xv\", Count: 1b, tag: {Damage: 0}}"
+      }
+    }
+  },
+  "spawnatchest": {}
+}

@@ -1,0 +1,64 @@
+{
+  "entity": "grimoireofgaia:arachne",
+  "name": "阿拉克涅",
+  "visualscale": 1.2,
+  "experience": 1000,
+  "effects": {},
+  "attributes": {
+    "generic.max_health": 5000,
+    "generic.follow_range": 50,
+    "generic.knockback_resistance": 2,
+    "generic.attack_damage": 10,
+    "generic.armor": 10,
+    "additionalentityattributes:magic_protection":5,
+    "generic.movement_speed":0.2,
+    "generic.attack_speed":2.0
+  },
+  "customattributes": {
+    "dropgear": 6
+  },
+  "gear": {
+    "mainhand": "{id: \"mine_and_staff:roots_staff\", Count: 1b, tag: {Damage: 0}}",
+    "offhand": "{id: \"undead_revamp2:bonedagger\", Count: 1b, tag: {Damage: 0}}",
+    "helmet": "{id: \"composite_material:amethyst_helmet\", Count: 1b, tag: {Damage: 0}}",
+    "chestplate": "{id: \"composite_material:amethyst_chestplate\", Count: 1b, tag: {Damage: 0}}",
+    "leggings": "{id: \"composite_material:amethyst_leggings\", Count: 1b, tag: {Damage: 0}}",
+    "feet": "{id: \"composite_material:amethyst_boots\", Count: 1b, tag: {Damage: 0}}"
+  },
+  "ai-goals": {
+    "minecraft:target": {
+    },
+    "brutalbosses:changegear": {
+      "healthinterval": "50-0",
+      "gear": {  
+        "offhand": "{id: \"mine_and_staff:roots_staff\", Count: 1b, tag: {Damage: 0}}",
+        "mainhand": "{id: \"undead_revamp2:bonedagger\", Count: 1b, tag: {Damage: 0}}"
+      }
+    },
+    "minecraft:meleeattack": {
+    },
+    "brutalbosses:runcommand": {
+      "healthinterval": "50-0",
+      "cooldown": 160,
+      "command": "function darksidemain:arachne"
+    },
+    "brutalbosses:charge": {
+      "healthinterval": "50-0",
+        "mindist": 1,
+        "duration": 3,
+        "interval": 20
+    },
+    "brutalbosses:summonmobs": {
+      "healthinterval": "100-0",
+      "interval": 100,
+      "maxcount": 10,
+      "count": 5,
+      "entities": [
+        {
+          "entityid": "minecraft:cave_spider"
+        }
+      ]
+    }
+  },
+  "spawnatchest": {}
+}

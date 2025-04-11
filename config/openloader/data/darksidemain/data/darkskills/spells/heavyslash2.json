@@ -1,0 +1,44 @@
+{
+  "school": "PHYSICAL_MELEE",
+  "range": 6,
+  "learn": {
+    "tier": 1
+  },
+  "cast": {
+    "duration": 0.6,
+    "animation": "darkskills:heavyslash",
+    "sound": {
+      "id": "darkskills:heavy_weapon_charge_2",
+      "randomness": 0
+    }
+  },
+  "release": {
+    "target": {
+      "type": "AREA",
+      "area": {
+        "dropoffCurve": "SQUARED",
+        "horizontal_range_multiplier": 2.0,
+        "vertical_range_multiplier": 2.5,
+        "angle_degrees": 90
+      }
+    },
+    "sound": {
+      "id": "darkskills:heavy_slash",
+      "randomness": 0
+    }
+  },
+  "impact": [
+    {
+      "action": {
+        "type": "DAMAGE",
+        "damage": {
+          "knockback": 0.5,
+          "spell_power_coefficient": 5.8
+        }
+      }
+    }
+  ],
+  "cost": {
+    "cooldown_duration": 4
+  }
+}
