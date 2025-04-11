@@ -1,0 +1,36 @@
+{
+  "allow_stacking": true,
+  "spell_channeling": {
+    "requires_related_attributes": false,
+    "enabled": true,
+    "max_level": 5,
+    "min_cost": 10,
+    "step_cost": 9,
+    "bonus_per_level": 0.05
+  },
+  "viscosity": {
+    "requires_related_attributes": true,
+    "enabled": true,
+    "max_level": 5,
+    "min_cost": 10,
+    "step_cost": 9,
+    "bonus_per_level": 0.03
+  },
+  "fertility": {
+    "requires_related_attributes": true,
+    "enabled": true,
+    "max_level": 5,
+    "min_cost": 10,
+    "step_cost": 9,
+    "bonus_per_level": 0.03
+  },
+  "volatility": {
+    "requires_related_attributes": true,
+    "enabled": true,
+    "max_level": 5,
+    "min_cost": 10,
+    "step_cost": 9,
+    "bonus_per_level": 0.03
+  },
+  "schema_version": 4
+}
