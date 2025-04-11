@@ -1,0 +1,11 @@
+
+#Targetato
+[General]
+	#Use 'B' for blacklist, use any other word(s) (e.g.  I love you, PotatoBoy) for whitelist
+	listType = "B"
+	mobList = []
+
+["Advanced Filter"]
+	filteredMobList = ["minecraft:piglin", "minecraft:piglin_brute"]
+	filteredTargetList = ["minecraft:wither_skeleton", "minecraft:wither_skeleton"]
+

@@ -1,0 +1,244 @@
+
+["Infection System"]
+	#Whether to turn on the infection system.
+	#The Serverside controls the switching of the system and the Clientside controls the display of the HUD.
+	"Turn on Infection System" = false
+	#This weight is multiplied for each infection increase.
+	#For example, if this value is set to 0.5, when the infection should increase by 8, the actual increase is 8 * 0.5 = 4.
+	#Range: 0.0 ~ 5.0
+	"Infection Weight" = 1.0
+	#When a player dies, if the infection value is higher than this value, the infection value will be equal to this value upon respawn.
+	#Range: 0.0 ~ 100.0
+	"Infection Initial Value" = 0.0
+	#Mobs that cause infections and how much infection they can cause (melee attacks only), including undead by default.
+	#Format: "minecraft:zombie, 2" ("" required) means that zombies will causes twice as much infection as normally infected mobs.
+	"Source of Infection Mobs" = []
+	#Projectiles that cause infections and how much infection they can cause.
+	#Format: "minecraft:arrow, 2" ("" required) means that zombies will causes twice as much infection as normally infected projectiles.
+	"Source of Infection Projectiles" = []
+	#Items that cause or cure infection.
+	#Format: "minecraft:rotten_flesh, 75, 8, 12" ("" required) means that using rotting flesh has a 75% chance of gaining 8-12(can be negative) infection level.
+	#Tag supported.
+	"Source of Infection Items" = ["minecraft:rotten_flesh, 75, 8, 12", "minecraft:enchanted_golden_apple, 100, -100, -100", "minecraft:golden_apple, 100, -30, -30"]
+	#Mobs that can be infected.
+	#Format: "minecraft:villager" ("" required)
+	"Infected Mobs" = []
+	#Whether to taint the player's message at a high level infection.
+	"Taint Message" = true
+	#Whether an entity with a high infection level becomes a zombie after death.
+	"Turn into a Zombie" = true
+	#An entity's infection level needs to be greater than the threshold to become a zombie after death.
+	#Range: 0 ~ 100
+	"Infection Level Threshold" = 75
+	#Zombies that the dead turn into.
+	#Format: "minecraft:zombie, 80" ("" required) means that each dead has a weight of 80 to turn into a zombie.
+	"Zombie List" = ["minecraft:zombie, 80", "minecraft:husk, 20"]
+
+	["Infection System"."Infection HUD Customize"]
+		#Select the HUD preset, 0 is customized.
+		#Range: 0 ~ 3
+		"HUD Preset" = 1
+		#Range: 0 ~ 2048
+		"HUD X Offset (needs HUD Preset is 0)" = 0
+		#Range: 0 ~ 2048
+		"HUD Y Offset (needs HUD Preset is 0)" = 0
+
+["Injury System"]
+	#Whether to turn on the injury system.
+	#The Serverside controls the switching of the system and the Clientside controls the display of the HUD.
+	"Turn on Injury System" = false
+	#This weight is multiplied for each injury and bandage decrease.
+	#For example, if this value is set to 0.5, when the injury or bandage should decrease by 8, the actual decrease is 8 * 0.5 = 4.
+	#Range: 0.0 ~ 5.0
+	"Injury Weight" = 1.0
+	#When a player dies, if the injury value is lower than this value, the injury value will be equal to this value upon respawn.
+	#Range: 0.0 ~ 100.0
+	"Injury Initial Value" = 100.0
+	#Whether to recover the injury level by sleep.
+	"Heal By Sleep" = true
+	#How much can injury level be recovered by once sleep.
+	#Range: 0 ~ 100
+	"Sleep Heal Amount" = 25
+	#Whether bandage level greater than 0 is required to recover from sleep when the injury level is too low.
+	"Heal Need Bandage" = true
+	#Injury level below threshold will require bandage level to recover by sleep.
+	#Range: 0 ~ 100
+	"Injury Level Threshold" = 50
+	#DamageSources that don't cause injury.
+	#Format: "outOfWorld" ("" required)
+	"DamageSource Blacklist" = ["immunity", "injury", "infection", "genericKill", "drown", "starve", "magic", "wither", "dryOut", "freeze", "inWall", "outOfWorld"]
+	#Items that cure injury.
+	#Format: "minecraft:enchanted_golden_apple, 30, 50" ("" required) means that using Enchanted Golden Apple will gain 30 injury level and 50 bandage level.
+	"Cure Injury Items" = ["minecraft:enchanted_golden_apple, 30, 50", "minecraft:golden_apple, 10, 20"]
+
+	["Injury System"."Injury HUD Customize"]
+		#Select the HUD preset, 0 is customized.
+		#Range: 0 ~ 3
+		"HUD Preset" = 1
+		#Range: 0 ~ 2048
+		"HUD X Offset (needs HUD Preset is 0)" = 0
+		#Range: 0 ~ 2048
+		"HUD Y Offset (needs HUD Preset is 0)" = 0
+		#Whether the HUD rises when underwater. (needs HUD Preset is 0)
+		"Rise Underwater" = true
+
+["Rot System"]
+	#Whether to turn on the rot system.
+	#The Serverside controls the switching of the system and the Clientside controls the display of the HUD.
+	"Turn on Rot System" = true
+	#This weight is multiplied for each rot increase.
+	#For example, if this value is set to 0.5, when the rot should increase by 8, the actual increase is 8 * 0.5 = 4.
+	#Range: 0.0 ~ 5.0
+	"Rot Weight" = 1.0
+	#Whether to the food can be stackable with different level of the rot.
+	#If turned on, food's level of rot will be averaged based on quantity when stacked.
+	#WARNING: This feature is not compatible with the backpack module for now.
+	#
+	"Rot Stackable" = true
+	#Whether to consume food that is not fresh may lead to nausea or poisonings.
+	"Food not Fresh Causes Nausea" = true
+	#Whether the temperature of the biome in which the entity or block is located and height affect the rate of rot.
+	"Temperature Affects Rot" = true
+	#Food that doesn't rot.
+	#Format: "minecraft:golden_apple" ("" required)
+	"Food WhiteList" = ["minecraft:golden_carrot", "minecraft:enchanted_golden_apple", "minecraft:golden_apple"]
+	#Blocks in which food rot is not affected by temperature.
+	#Format: "minecraft:ender_chest" ("" required)
+	"Block WhiteList" = []
+	#Specific parameters of the rot.
+	#Format: "minecraft:porkchop, 1.5, minecraft:rotten_flesh" ("" required) means porkchop will rot at 1.5 times the rate and will end up as rotten flesh.
+	#By default, food rots for 5 game days, and rotten food will simply disappear.
+	#Tag supported.
+	"Rot Parameters" = ["#forge:cooked_meat, 1.0, minecraft:rotten_flesh", "#forge:raw_meat, 1.5, minecraft:rotten_flesh", "minecraft:spider_eye, 2.0, minecraft:air", "minecraft:rotten_flesh, 2.0, minecraft:air"]
+	#Rate of food decay in different block containers.
+	#Format: "minecraft:chest, 0.8" ("" required) means food in chests will rot at 0.8 times the rate.
+	"Block Container Detail" = ["minecraft:ender_chest, 0"]
+	#Whether to allow players to warp food (The food warpped will rot slower).
+	"Wrap Food" = true
+	#How much does the rate of rotting of wrapped food decrease.
+	#Range: 0.0 ~ 1.0
+	"Warped Food Rot Rate" = 0.5
+	#Probability of food being wrapped in loot chests.
+	#Range: 0.0 ~ 1.0
+	"Warped Food Chance" = 0.5
+	#The items can warp food when in offhand.Format: "minecraft:apple" ("" required)
+	"Warp Items" = []
+
+["Rust System"]
+	#Whether to turn on the rust system.
+	#The Serverside controls the switching of the system and the Clientside controls the display of the HUD.
+	"Turn on Rust System" = false
+	#This weight is multiplied for each rust increase.
+	#For example, if this value is set to 0.5, when the rust should increase by 8, the actual increase is 8 * 0.5 = 4.
+	#Range: 0.0 ~ 5.0
+	"Rust Weight" = 1.0
+	#Items that don't rust.
+	#Format: "minecraft:iron_sword" ("" required)
+	#By default, all armors, tools and weapons where the materials are iron will be rust.
+	#
+	"Rust WhiteList" = []
+	#Items will rust even if it isn't made of iron.
+	#Format: "minecraft:iron_sword" ("" required)
+	#
+	"Rust BlackList" = []
+	#Items that can prevent rusting.
+	#Format: "minecraft:quartz, 30, 10" ("" required) means that using quartz consumes 10 of its durability (If the item isn't damageable item it will be consumed directly) and removes 30 of rust.
+	#You need to hold your item need to be descaled in your mainhand with rust removal item in offhand and right click with shift.
+	#
+	"Rust Removal Item" = ["zombiekit:sandpaper, 20, 1", "create:sand_paper, 20, 1", "create:red_sand_paper, 20, 1"]
+	#Items that can prevent rusting.
+	#Format: "minecraft:honeycomb, 10" ("" required) means that using honeycomb consumes 10 of its durability (If the item isn't damageable item it will be consumed directly) to wax item.
+	#You need to hold your item need to be waxed in your mainhand with wax item in offhand and right click with shift.
+	#
+	"Wax Item" = ["minecraft:honeycomb, 1"]
+	#Whether the wax coating is permanent.
+	"Wax Coating Permanent" = false
+	#If the wax coating is not permanent the number of times it can be used.
+	#Range: > 1
+	"Wax Coating Durability" = 50
+
+["Sound System"]
+	#Whether to turn on the sound system.
+	#This system will cause the mobs attracted by sound.
+	"Turn on Sound System" = true
+	#The sound will attract mobs.
+	#Format: "minecraft:entity.generic.explode, 3" ("" required) means that the mobs within (3 + 1) * (0.3 * FOLLOW_RANGE) are attracted to the sound.
+	#Format: "$chest, 1" ("" required) means that sounds whose name contain "chest" will attract the mobs.
+	#
+	"Sound WhiteList" = ["sona:crate, 1", "minecraft:entity.generic.explode, 3", "$chest, 0"]
+	#The mobs will be attracted by sound.
+	#Format: "minecraft:zombie" ("" required)
+	#By default, all undead mobs will be attracted.
+	#
+	"Attracted Mob WhiteList" = []
+	#The mobs will NOT be attracted by sound.
+	#Format: "minecraft:zombie" ("" required)
+	#
+	"Attracted Mob BlackList" = []
+	#Whether the sprint attracts the mobs.
+	"Sprint Sound" = true
+	#Increased seconds to attract mobs per level of sound.
+	#Range: 1 ~ 100
+	"Increased Seconds" = 5
+
+	["Sound System".Tacz]
+		#Whether the gun in tacz will attract mobs when fire
+		"Tacz Fire Attraction" = true
+		#The gun id will not attract mobs.
+		#Format: "tacz:ai_awp" ("" required)
+		#
+		"Gun WhiteList" = []
+		#The range of mobs that will be attracted without silencerFor example, if this value is set to 4, the mobs within 4 * (0.3 * FOLLOW_RANGE) would be attracted to fire sound.
+		#Range: 0 ~ 10
+		"Fire Range" = 4
+		#The range of mobs that will be attracted with silencerFor example, if this value is set to 1, the mobs within 1 * (0.3 * FOLLOW_RANGE) would be attracted to fire sound with silencer.
+		#Range: 0 ~ 10
+		"Silencer Range" = 1
+
+["Inventory Keep"]
+	#Whether or not the player keeps the items in the armor slots after death.
+	"Armor Keep" = false
+	#Items kept after death.
+	"Keep Whitelist" = []
+
+[Misc]
+	#Whether physical effects (e.g. Ignition, Frost, etc.) can be removed by items that remove all effects.
+	"Physical Effects Remove" = false
+	#Whether or not to enable enhanced camouflage, when enabled, monsters will lose their target if there is a line of sight obstacle between them when tracking a camouflaged target.
+	"Enhanced Camouflage" = false
+	#Loot containers have a chance of being locked when they are generated.
+	#Range: 0.0 ~ 100.0
+	"Loot Container Locked Percent" = 0.0
+	#The Items can break the lock.
+	#Format: "zombiekit:crowbar, 30" ("" required) means that iron_crowbar has a 30% chance of opening locked chests every time right click locked container.
+	#
+	"Unlock Items" = ["zombiekit:crowbar, 30", "zombiekit:netherite_crowbar, 70"]
+	#Whether only loot containers with the loot table in the whitelist will be locked.
+	"Lock Table Whitelist Mode Open" = true
+	#The Loot Table will be locked.
+	#Format: "chests/end_city_treasure" or "zombiekit:chests/tool" ("" required)
+	#
+	"Lock Table Whitelist" = []
+	#Whether or not the dot damage from effect such as ignition can bypass the invulnerable time.
+	"Bypass Invulnerable Dot" = true
+	#The cooldown ticks of use unlock items
+	#1 sec = 20 ticks
+	#Range: 0 ~ 1000
+	"Unlock Items Cooldown" = 160
+
+["Chat System"]
+	#Whether or not players would only chat with each other nearby.
+	#Effective for /tell commands and use the /say command to send messages regardless of distance.
+	"Chat Range Limit" = false
+	#The range within which a player can chat, beyond which messages will be gradually distorted until they can't be received.
+	#Range: 0 ~ 10000
+	"Chat Initial Range" = 60
+	#Items will increase players' chat range.
+	#Format: "minecraft:ender_eye, 600" ("" required) means that if the player has ender eye in inventory, this player will send message to player with increase chat range items within 600.
+	#If the sending distance is -1, it can send message to all players with increase chat range items in that dimension.
+	#If the sending distance is -2, it can send message to all players with increase chat range items in that server.
+	#And if the sending distance is 0, it can only receive message.
+	#Note: Only players with items increasing chat range can receive messages beyond initial range.
+	#
+	"Increase Chat Range Items" = []
+
