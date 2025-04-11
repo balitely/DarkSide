@@ -1,0 +1,163 @@
+[
+  {
+    "id": "hp",
+    "describes": [
+      {
+        "attribute": "max_health",
+        "describe": "hp_max_health"
+      }
+    ]
+  },
+  {
+    "id": "focus",
+    "describes": [
+      {
+        "attribute": "rpgmana:mana",
+        "describe": "focus_rpgmana"
+      },
+      {
+        "attribute": "rpgsp:skillpower",
+        "describe": "focus_rpgsp"
+      },
+      {
+        "attribute": "rpgmana:manaregen",
+        "describe": "focus_rpgmana_regen"
+      },
+      {
+        "attribute": "rpgsp:skillpowerregen",
+        "describe": "focus_rpgsp_regen"
+      }
+    ]
+  },
+  {
+    "id": "power",
+    "describes": [
+      {
+        "attribute": "attack_damage",
+        "describe": "power_attack_damage"
+      },
+      {
+        "attribute": "armor",
+        "describe": "endurance_armor"
+      }
+    ]
+  },
+  {
+    "id": "sturdy",
+    "describes": [
+      {
+        "attribute": "burden",
+        "describe": "sturdy_burden"
+      },
+      {
+        "attribute": "lhmiracleroad:injured",
+        "describe": "sturdy_injured"
+      },
+      {
+        "attribute": "minecraft:generic.knockback_resistance",
+        "describe": "sturdy_knockback_resistance"
+      }
+    ]
+  },
+  {
+    "id": "brain",
+    "describes": [
+      {
+        "attribute": "spell_power:arcane",
+        "describe": "brain_arcane"
+      },
+      {
+        "attribute": "spell_power:fire",
+        "describe": "brain_fire"
+      },
+      {
+        "attribute": "spell_power:frost",
+        "describe": "brain_frost"
+      },
+      {
+        "attribute": "extraspellattributes:reabsorption",
+        "describe": "brain_reabsorption"
+      }
+    ]
+  },
+  {
+    "id": "agile",
+    "describes": [
+      {
+        "attribute": "attack_speed",
+        "describe": "agile_attack_speed"
+      },
+      {
+        "attribute": "movement_speed",
+        "describe": "agile_movement_speed"
+      },
+      {
+        "attribute": "combatroll:recharge",
+        "describe": "agile_recharge"
+      },
+      {
+        "attribute": "ranged_weapon:damage",
+        "describe": "ranged_damage"
+      },
+      {
+        "attribute": "ranged_weapon:haste",
+        "describe": "agile_haste"
+      }
+    ]
+  },
+  {
+    "id": "trick",
+    "describes": [
+      {
+        "attribute": "attack_damage",
+        "describe": "power_attack_damage"
+      },
+      {
+        "attribute": "spell_power:haste",
+        "describe": "trick_haste"
+      },
+      {
+        "attribute": "ranged_weapon:damage",
+        "describe": "ranged_damage"
+      },
+      {
+        "attribute": "rpgsp:spregenperattack",
+        "describe": "trick_spregenperattack"
+      },
+      {
+        "attribute": "ranged_weapon:haste",
+        "describe": "agile_haste"
+      }
+    ]
+  },
+  {
+    "id": "faith",
+    "describes": [
+      {
+        "attribute": "spell_power:healing",
+        "describe": "faith_healing"
+      },
+      {
+        "attribute": "spell_power:soul",
+        "describe": "faith_soul"
+      },
+      {
+        "attribute": "healing",
+        "describe": "hp_healing"
+      }
+    ]
+  },
+  {
+    "id": "luck",
+    "describes": [
+      {
+        "attribute": "luck",
+        "describe": "luck"
+      },
+      {
+        "attribute": "critical_hit_rate",
+        "describe": "critical_hit_rate"
+      }
+    ]
+  }
+]
