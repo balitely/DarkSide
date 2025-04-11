@@ -1,6 +1,0 @@
-
-[common]
-	#The max amount of a structure in all axis
-	#Range: > 0
-	maxStructureSize = 300
-

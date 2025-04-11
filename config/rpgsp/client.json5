@@ -1,8 +1,0 @@
-{
-	// Alternate Skillpower Bar (Default: false)
-	"alt": false,
-	// Adjust the x_position of the default SP bar(Default: -91)
-	"Spbar_x": -91,
-	// Adjust the y_position of the default SP bar(Default: -15)
-	"Spbar_y": -20
-}

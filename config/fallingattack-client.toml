@@ -1,3 +1,0 @@
-#When the player starts the falling attack, the perspective changes to third person.
-third_person = false
-

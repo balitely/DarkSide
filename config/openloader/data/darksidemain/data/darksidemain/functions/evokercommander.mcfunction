@@ -1,3 +1,0 @@
-brutalbosses spawnboss darkside_minivindicatorheavyaxeman
-brutalbosses spawnboss darkside_minivindicatorheavyhalberdman
-brutalbosses spawnboss darkside_minipillagerheavycrossbowman

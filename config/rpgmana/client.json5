@@ -1,8 +1,0 @@
-{
-	// Alternate Mana Bar (Default: false)
-	"alt": false,
-	// Adjust the x_position of the default Mana bar(Default: 0)
-	"Manabar_x": -91,
-	// Adjust the y_position of the default Mana bar(Default: -22)
-	"Manabar_y": -25
-}

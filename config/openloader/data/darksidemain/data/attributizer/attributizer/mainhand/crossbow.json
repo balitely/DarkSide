@@ -1,9 +1,0 @@
-{      
-"mcdw:crossbow_dual_crossbow": [
-  {
-    "attribute": "ranged_weapon:damage",
-    "modify": 0.0,
-    "operation": "ADDITION"
-  }
-  ]
-}

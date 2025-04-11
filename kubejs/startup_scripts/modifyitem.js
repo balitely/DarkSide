@@ -1,173 +1,98 @@
-ItemEvents.modification(event => { 
-    //匕首
-    event.modify('magistuarmoryaddon:steel_rondel_dagger',item => {
-      item.rarity = 'UNCOMMON'
-    })
-    event.modify('magistuarmoryaddon:steel_parrying_dagger',item => {
-      item.rarity = 'UNCOMMON'
-    })
-    event.modify('magistuarmoryaddon:steel_bollock_dagger',item => {
-      item.rarity = 'UNCOMMON'
-    })
-    event.modify('fantasy_weapons:weapon_thief_dagger',item => {
-      item.rarity = 'RARE'
-    })
-    event.modify('fantasy_weapons:weapon_old_dagger',item => {
-      item.rarity = 'UNCOMMON'
-    })
-    event.modify('fantasy_weapons:weapon_savage_dagger',item => {
-      item.rarity = 'UNCOMMON'
-    })
-    //单手镰
-    event.modify('magistuarmoryaddon:steel_sickle',item => {
-      item.rarity = 'UNCOMMON'
-    })
-    //短剑
-    event.modify('magistuarmory:steel_shortsword',item => {
-      item.rarity = 'UNCOMMON'
-    })
-    event.modify('magistuarmory:silver_shortsword',item => {
-      item.rarity = 'UNCOMMON'
-    })
-    //直剑
-    event.modify('magistuarmoryaddon:steel_arming_sword_type_xiv',item => {
-      item.rarity = 'UNCOMMON'
-    })
-    event.modify('magistuarmoryaddon:steel_arming_sword_type_xv',item => {
-      item.rarity = 'UNCOMMON'
-    })
-    event.modify('magistuarmoryaddon:steel_arming_sword_type_xiii',item => {
-      item.rarity = 'UNCOMMON'
-    })
-    event.modify('miningmaster:power_pyrite_sword',item => {
-      item.rarity = 'RARE'
-    })
-    event.modify('miningmaster:lucky_citrine_sword',item => {
-      item.rarity = 'RARE'
-    })
-    event.modify('miningmaster:spirit_garnet_sword',item => {
-      item.rarity = 'RARE'
-    })
-    event.modify('miningmaster:ice_sapphire_sword',item => {
-      item.rarity = 'RARE'
-    })
-    event.modify('miningmaster:fire_ruby_sword',item => {
-      item.rarity = 'RARE'
-    })
-    event.modify('fantasy_weapons:weapon_old_blade',item => {
-      item.rarity = 'UNCOMMON'
-    })
-    event.modify('composite_material:rusted_copper_sword',item => {
-      item.rarity = 'UNCOMMON'
-    })
-    event.modify('composite_material:amethyst_sword',item => {
-      item.rarity = 'UNCOMMON'
-    })
-    //单手矛
-    event.modify('magistuarmory:pitchfork',item => {
-      item.rarity = 'UNCOMMON'
-    })
-    event.modify('fantasy_weapons:weapon_savage_spear',item => {
-      item.rarity = 'UNCOMMON'
-    })
-    //迅捷剑
-    event.modify('magistuarmoryaddon:steel_rapier',item => {
-      item.rarity = 'UNCOMMON'
-    })
-    //单手斧
-    event.modify('magistuarmoryaddon:steel_battleaxe',item => {
-      item.rarity = 'UNCOMMON'
-    })
-    event.modify('magistuarmoryaddon:steel_francisca_axe',item => {
-      item.rarity = 'UNCOMMON'
-    })
-    event.modify('magistuarmoryaddon:steel_war_axe',item => {
-      item.rarity = 'UNCOMMON'
-    })
-    event.modify('miningmaster:haste_peridot_axe',item => {
-      item.rarity = 'RARE'
-    })
-    event.modify('miningmaster:power_pyrite_axe',item => {
-      item.rarity = 'RARE'
-    })
-    event.modify('miningmaster:kinetic_opal_axe',item => {
-      item.rarity = 'RARE'
-    })
-    event.modify('composite_material:amethyst_axe',item => {
-      item.rarity = 'UNCOMMON'
-    })
-    event.modify('composite_material:rusted_copper_axe',item => {
-      item.rarity = 'UNCOMMON'
-    })
-    //单手杖
-    event.modify('magistuarmoryaddon:steel_round_mace',item => {
-      item.rarity = 'UNCOMMON'
-    })
-    event.modify('magistuarmory:steel_heavymace',item => {
-      item.rarity = 'UNCOMMON'
-    })
-    event.modify('fantasy_weapons:weapon_savage_hammer',item => {
-      item.rarity = 'UNCOMMON'
-    })
-    event.modify('magistuarmory:rusted_heavymace',item => {
-      item.rarity = 'UNCOMMON'
-    })
-    event.modify('magistuarmory:club',item => {
-      item.rarity = 'UNCOMMON'
-    })
-    event.modify('magistuarmory:silver_heavymace',item => {
-      item.rarity = 'UNCOMMON'
-    })
-    //单手魔杖
-    event.modify('mine_and_staff:iolite_staff',item => {
-      item.rarity = 'RARE'
-    })
-    event.modify('mine_and_staff:roots_staff',item => {
-      item.rarity = 'RARE'
-    })
-    //长弓
-    event.modify('magistuarmory:longbow',item => {
-      item.rarity = 'UNCOMMON'
-    })
-    //重弩
-    event.modify('magistuarmory:heavy_crossbow',item => {
-      item.rarity = 'UNCOMMON'
-    })
-    //手半剑
-    event.modify('magistuarmory:noble_sword',item => {
-      item.rarity = 'UNCOMMON'
-    })
-    event.modify('magistuarmory:steel_bastardsword',item => {
-      item.rarity = 'UNCOMMON'
-    })
-    event.modify('magistuarmory:silver_bastardsword',item => {
-      item.rarity = 'UNCOMMON'
-    })
-    //长矛
-    event.modify('magistuarmory:steel_pike',item => {
-      item.rarity = 'UNCOMMON'
-    })
-    event.modify('magistuarmory:silver_pike',item => {
-      item.rarity = 'UNCOMMON'
-    })
-    //长戟
-    event.modify('magistuarmory:steel_concavehalberd',item => {
-      item.rarity = 'UNCOMMON'
-    })
-    event.modify('magistuarmory:silver_concavehalberd',item => {
-      item.rarity = 'UNCOMMON'
-    })
-    //双手巨剑
-    event.modify('magistuarmory:steel_zweihander',item => {
-      item.rarity = 'UNCOMMON'
-    })
-    event.modify('magistuarmory:silver_zweihander',item => {
-      item.rarity = 'UNCOMMON'
-    })
-    event.modify('fantasy_weapons:weapon_sharp_sword',item => {
-      item.rarity = 'RARE'
-    })
-    event.modify('fantasy_weapons:weapon_cursed_blade',item => {
-      item.rarity = 'RARE'
-    })
-})
+ItemEvents.modification((event) => {
+	// 只是懒得写完整string😁
+	let t = {
+		uc: "UNCOMMON",
+		ra: "RARE",
+		ep: "EPIC",
+	};
+
+	let modifyItem = [
+		//匕首
+		["magistuarmoryaddon:steel_rondel_dagger", t.uc],
+		["magistuarmoryaddon:steel_parrying_dagger", t.uc],
+		["magistuarmoryaddon:steel_bollock_dagger", t.uc],
+		["fantasy_weapons:weapon_thief_dagger", t.ra],
+		["fantasy_weapons:weapon_old_dagger", t.uc],
+		["fantasy_weapons:weapon_savage_dagger", t.uc],
+
+		//单手镰
+		["magistuarmoryaddon:steel_sickle", t.uc],
+
+		//短剑
+		["magistuarmory:steel_shortsword", t.uc],
+		["magistuarmory:silver_shortsword", t.uc],
+
+		//直剑
+		["magistuarmoryaddon:steel_arming_sword_type_xiv", t.uc],
+		["magistuarmoryaddon:steel_arming_sword_type_xv", t.uc],
+		["magistuarmoryaddon:steel_arming_sword_type_xiii", t.uc],
+		["miningmaster:power_pyrite_sword", t.ra],
+		["miningmaster:lucky_citrine_sword", t.ra],
+		["miningmaster:spirit_garnet_sword", t.ra],
+		["miningmaster:ice_sapphire_sword", t.ra],
+		["miningmaster:fire_ruby_sword", t.ra],
+		["fantasy_weapons:weapon_old_blade", t.uc],
+		["composite_material:rusted_copper_sword", t.uc],
+		["composite_material:amethyst_sword", t.uc],
+
+		//单手矛
+		["magistuarmory:pitchfork", t.uc],
+		["fantasy_weapons:weapon_savage_spear", t.uc],
+
+		//迅捷剑
+		["magistuarmoryaddon:steel_rapier", t.uc],
+
+		//单手斧
+		["magistuarmoryaddon:steel_battleaxe", t.uc],
+		["magistuarmoryaddon:steel_francisca_axe", t.uc],
+		["magistuarmoryaddon:steel_war_axe", t.uc],
+		["miningmaster:haste_peridot_axe", t.ra],
+		["miningmaster:power_pyrite_axe", t.ra],
+		["miningmaster:kinetic_opal_axe", t.ra],
+		["composite_material:amethyst_axe", t.uc],
+		["composite_material:rusted_copper_axe", t.uc],
+
+		//单手杖
+		["magistuarmoryaddon:steel_round_mace", t.uc],
+		["magistuarmory:steel_heavymace", t.uc],
+		["fantasy_weapons:weapon_savage_hammer", t.uc],
+		["magistuarmory:rusted_heavymace", t.uc],
+		["magistuarmory:club", t.uc],
+		["magistuarmory:silver_heavymace", t.uc],
+
+		//单手魔杖
+		["mine_and_staff:iolite_staff", t.ra],
+		["mine_and_staff:roots_staff", t.ra],
+
+		//长弓
+		["magistuarmory:longbow", t.uc],
+
+		//重弩
+		["magistuarmory:heavy_crossbow", t.uc],
+
+		//手半剑
+		["magistuarmory:noble_sword", t.uc],
+		["magistuarmory:steel_bastardsword", t.uc],
+		["magistuarmory:silver_bastardsword", t.uc],
+
+		//长矛
+		["magistuarmory:steel_pike", t.uc],
+		["magistuarmory:silver_pike", t.uc],
+
+		//长戟
+		["magistuarmory:steel_concavehalberd", t.uc],
+		["magistuarmory:silver_concavehalberd", t.uc],
+
+		//双手巨剑
+		["magistuarmory:steel_zweihander", t.uc],
+		["magistuarmory:silver_zweihander", t.uc],
+		["fantasy_weapons:weapon_sharp_sword", t.ra],
+		["fantasy_weapons:weapon_cursed_blade", t.ra],
+	];
+
+	modifyItem.forEach(([item, r]) => {
+		event.modify(item, (e) => {
+			e.rarity = r;
+		});
+	});
+});

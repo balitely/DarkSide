@@ -1,7 +1,0 @@
-#default: 100%
-#Range: > 0
-damage_amount = 100
-#default: 100%
-#Range: > 0
-knockback_amount = 200
-

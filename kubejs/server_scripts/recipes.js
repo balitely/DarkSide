@@ -1,35 +1,42 @@
-ServerEvents.recipes(event => {
-    event.remove({ mod: 'fantasy_weapons' })
-    event.remove({ mod: 'magistuarmory' })
-    event.remove({ mod: 'magistuarmoryaddon' })
-    event.remove({ mod: 'slavicarmory' })
-    event.remove({ mod: 'composite_material' })
-    event.remove({ mod: 'fantasy_armor' })
-    event.remove({ mod: 'additional_rpg_jewelry' })
-    event.remove({ mod: 'archers' })
-    event.remove({ mod: 'extraspellattributes' })
-    event.remove({ mod: 'jewelry' })
-    event.remove({ mod: 'paladins' })
-    event.remove({ mod: 'rogues' })
-    event.remove({ mod: 'spellbladenext' })
-    event.remove({ mod: 'wizards' })
-    event.remove({ mod: 'genshinstrument' })
-    event.remove({ mod: 'legendarysurvivaloverhaul' })
-    event.remove({ mod: 'legendary_monsters' })
-    event.remove({ mod: 'mutantmonsters' })
-    event.remove({ mod: 'mine_and_staff' })
-    event.remove({ mod: 'miningmaster' })
-    event.remove({ mod: 'more_potion_effects' })
-    event.remove({ mod: 'undead_revamp2' })
-    event.remove({ mod: 'grimoireofgaia' })
-    event.remove({ mod: 'majruszsdifficulty' })
-    event.remove({ mod: 'simplyswords' })
-    event.remove({ mod: 'enigmaticlegacy' })
-    event.remove({ mod: 'third_life_plus' })
-    event.remove({ mod: 'thirst' })
-    event.remove({ mod: 'verdant' })
-    event.remove({ mod: 'verdantvibes' })
-    event.remove({ mod: 'waystones' })
-    event.remove({ mod: 'mcdw' })
-    event.remove({ mod: 'minecraft' })
-})
+ServerEvents.recipes((event) => {
+	// remove by modid
+	let remove_recipes = [
+		"fantasy_weapons",
+		"magistuarmory",
+		"magistuarmoryaddon",
+		"slavicarmory",
+		"composite_material",
+		"fantasy_armor",
+		"additional_rpg_jewelry",
+		"archers",
+		"extraspellattributes",
+		"jewelry",
+		"paladins",
+		"rogues",
+		"spellbladenext",
+		"wizards",
+		"genshinstrument",
+		"legendarysurvivaloverhaul",
+		"legendary_monsters",
+		"mutantmonsters",
+		"mine_and_staff",
+		"miningmaster",
+		"more_potion_effects",
+		"undead_revamp2",
+		"grimoireofgaia",
+		"majruszsdifficulty",
+		"simplyswords",
+		"enigmaticlegacy",
+		"third_life_plus",
+		"thirst",
+		"verdant",
+		"verdantvibes",
+		"waystones",
+		"mcdw",
+		"minecraft",
+	];
+
+	remove_recipes.forEach((item) => {
+		event.remove({ mod: item });
+	});
+});
