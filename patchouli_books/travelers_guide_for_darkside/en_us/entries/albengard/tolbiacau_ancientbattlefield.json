@@ -1,0 +1,11 @@
+{
+    "name": "托尔比亚克古战场",
+    "icon": "minecraft:grass",
+    "category": "patchouli:albengard",
+    "pages": [
+        {
+            "type": "text",
+            "text": "托尔比亚克本地最大的古战场，核心为一处会战遗址，现在算是佣兵强盗们的窝点，此地还有强大亡灵生物的传闻。"
+        }
+    ]
+}

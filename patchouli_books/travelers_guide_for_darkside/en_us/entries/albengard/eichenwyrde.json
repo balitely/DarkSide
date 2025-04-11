@@ -1,0 +1,11 @@
+{
+    "name": "艾肯维德",
+    "icon": "minecraft:grass",
+    "category": "patchouli:albengard",
+    "pages": [
+        {
+            "type": "text",
+            "text": "艾肯维德森林，隶属于阿尔本加德地区，巨大的桦树林群系为此地的特点，这个地区野生动物比较多，树林深处还有树精与亚人出没，总体还算安宁。"
+        }
+    ]
+}

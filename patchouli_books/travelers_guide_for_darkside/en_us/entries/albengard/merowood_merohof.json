@@ -1,0 +1,11 @@
+{
+    "name": "梅洛霍夫",
+    "icon": "minecraft:grass",
+    "category": "patchouli:albengard",
+    "pages": [
+        {
+            "type": "text",
+            "text": "梅洛霍夫堡，隶属于梅洛伍德，是当地贵族的一处城堡，城堡沿河而建。"
+        }
+    ]
+}

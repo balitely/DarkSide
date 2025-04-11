@@ -1,0 +1,11 @@
+{
+    "name": "梅洛伍德森林遗迹",
+    "icon": "minecraft:grass",
+    "category": "patchouli:albengard",
+    "pages": [
+        {
+            "type": "text",
+            "text": "梅洛伍德最大的森林遗迹，有一处巨大的遗迹群，一个小型的水域地区，以及一处树精族定居点。"
+        }
+    ]
+}
