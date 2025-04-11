@@ -1,0 +1,69 @@
+{
+  "loot_tables": {
+    "minecraft:chests/simple_dungeon": [
+      "mana_tier1"
+    ],
+    "minecraft:chests/bastion_treasure": [
+      "mana_tier2"
+    ],
+    "minecraft:chests/woodland_mansion": [
+      "mana_tier1"
+    ],
+    "minecraft:chests/end_city_treasure": [
+      "mana_tier3"
+    ],
+    "minecraft:chests/ancient_city": [
+      "mana_tier3"
+    ],
+    "minecraft:chests/stronghold_crossing": [
+      "mana_tier1"
+    ],
+    "minecraft:chests/underwater_ruin_big": [
+      "mana_tier1"
+    ],
+    "minecraft:chests/nether_bridge": [
+      "mana_tier2"
+    ],
+    "minecraft:chests/stronghold_library": [
+      "mana_tier1"
+    ],
+    "minecraft:chests/bastion_other": [
+      "mana_tier2"
+    ]
+  },
+  "item_groups": {
+    "mana_tier1": {
+      "ids": [
+        "rpgmana:ceruleanring",
+        "rpgmana:iolitering",
+        "rpgmana:onyxring",
+        "rpgmana:vermillionring"
+      ],
+      "chance": 0.2,
+      "bonus_roll_chance": 1.2,
+      "weight": 1
+    },
+    "mana_tier3": {
+      "ids": [
+        "rpgmana:cerulean_awakened",
+        "rpgmana:iolite_awakened",
+        "rpgmana:onyx_awakened",
+        "rpgmana:vermillion_awakened"
+      ],
+      "chance": 0.5,
+      "bonus_roll_chance": 1.2,
+      "weight": 1
+    },
+    "mana_tier2": {
+      "ids": [
+        "rpgmana:ceruleanring",
+        "rpgmana:iolitering",
+        "rpgmana:onyxring",
+        "rpgmana:vermillionring"
+      ],
+      "chance": 0.2,
+      "bonus_roll_chance": 1.2,
+      "weight": 1
+    }
+  }
+}
