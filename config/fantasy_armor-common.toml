@@ -1,0 +1,9 @@
+
+["General Settings"]
+	#Apply armor effects
+	applyArmorEffects = false
+	#Apply attribute modifiers
+	applyModifiers = false
+	#Show item descriptions
+	showDescriptions = true
+

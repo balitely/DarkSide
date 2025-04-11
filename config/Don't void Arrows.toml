@@ -1,0 +1,5 @@
+
+[Entities]
+	#entities on this list will not drop arrows
+	"Entity Blacklist" = ["minecraft:ender_dragon", "minecraft:wither", "minecraft:shulker"]
+
