@@ -1,0 +1,93 @@
+
+[Enchantment]
+	#是否启用赐福之源附魔。
+	"Source of Blessing" = false
+	#是否启用诅咒之源附魔。
+	"Source of Curses" = false
+	#0~1
+	"Source of Blessing Probability" = 0.5
+	#0~1
+	"Source of Curses Probability" = 0.5
+	#每级破法效果提供 (100*x)% 概率消除被攻击者的药水效果，超过100%的部分会再次判断。
+	"Elimination Effect Probability" = 0.3
+	#每级破甲附魔为敌人附加破甲效果的概率。
+	"Sunder Armor Probability" = 0.05
+	#每级剧毒之刃施加剧毒效果的几率。
+	"Administer Poison Probability" = 0.075
+	#每级腐败施加施加腐蚀效果的几率。
+	"Infliction Corrosion Probability" = 0.05
+
+[Effects]
+	#是否启用超级腐蚀(可腐蚀无法破坏装备)
+	"Supre Corrosion" = false
+	#每级近战领域buff增加的范围(范围内造成的伤害无效)，设为0以禁用
+	"Melee Domain Distance" = 0.5
+	#每级闪避提供多少闪避概率。(1%~100%)
+	"Evasion Probability" = 20.0
+	#每级护甲碎裂减少多少护甲值。
+	"Armor Broken" = 4.0
+	#每级护甲碎裂减少多少护甲韧性。
+	"Armor Toughness Broken" = 1.0
+	#每级巨力增加百分之多少的伤害。
+	"Huge Force Damage" = 0.25
+	#伤害变为：(1-x)^恐惧效果等级。
+	"Fear Reduce damage" = 0.2
+	#每级脆弱增加多少被造成的伤害。
+	"Fragile Damage" = 0.25
+	#每级吸血增加百分之多少的吸血量。
+	"Leeching Health" = 0.1
+	#每级精准增加的伤害。
+	"Accurate Damage" = 0.25
+	#每级失准减少的伤害。
+	"Misalignment Reduce Damage" = 0.2
+	#每级弱效回复减少的回复量。
+	"Weaking Recovery Reduce Heal Amount" = 0.2
+	#使伤害变为：伤害*(实体的损失生命值百分比^x)*效果等级
+	"Slaughter Damage" = 0.35
+	#受到伤害时额外受到(损失的生命值*x)*效果等级的伤害
+	"Injury Accumulation" = 0.08
+	#生命链接效果的反伤为(伤害*x*效果等级)
+	"Injury Link Damage" = 0.5
+	#魔力聚焦增加造成的魔法伤害百分比。
+	"Magic Focus Damgae" = 0.25
+	#魔法护盾减少的受到的魔法伤害的百分比。
+	"Magic Shield Reduce Damage" = 0.2
+	#魔力抑制减少造成的魔法伤害的百分比。
+	"Magic Inhibition Reduce Damage" = 0.3
+	#魔法破防增加的受到伤害的百分比
+	"Broken Magic Shield Damage" = 0.3
+	#每级强心提升恢复的生命值。
+	"Strong Heart Recovery" = 0.25
+	#0：在得到药水效果时增加时长（增加30+等级*30秒时长）；1：若该buff等级≥其它状态效果数量，则令其它状态效果的持续时间不会降低，直至该buff消失。  若该buff等级＜其它状态效果数量，则令其它状态效果轮流消耗持续时间
+	Extension_method = 0.0
+	#每级诅咒效果施加几种对应的负面效果。(Range：1-4)
+	"Curse Count" = 2.0
+
+[EntitySpwan]
+	#生成的生物带有位格效果的最大等级，设为0以禁用。
+	"Max Rank Level" = 0.0
+	"Rank Spwan Possibility-Level1" = 10.0
+	"Rank Spwan Possibility-Level2" = 5.0
+	"Rank Spwan Possibility-Level3" = 1.0
+	"Rank Spwan Possibility-Level4" = 0.05
+	"Rank Spwan Possibility-Level5" = 0.005
+	"Rank Spwan Possibility-Level6" = 0.0
+	#最大位格权重，每个有位格效果的生物占3^效果等级的权重。
+	"Max Rank Exist" = 300.0
+	#生成时不会获得位格的生物。
+	"No Rank Entity" = []
+	#生成时位格为1的生物
+	"Rank 1 Entity" = []
+	#生成时位格为2的生物
+	"Rank 2 Entity" = []
+	#生成时位格为3的生物
+	"Rank 3 Entity" = []
+	#生成时位格为4的生物
+	"Rank 4 Entity" = []
+	#生成时位格为5的生物
+	"Rank 5 Entity" = []
+	#生成时位格为6的生物
+	"Rank 6 Entity" = []
+	#位格生物生成时是否带有额外效果。
+	"Rank Effect" = true
+

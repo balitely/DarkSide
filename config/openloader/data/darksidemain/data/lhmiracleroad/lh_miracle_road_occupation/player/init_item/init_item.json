@@ -1,0 +1,437 @@
+[
+  {
+    "id": "assassin",
+    "items": [
+      {
+        "item": "magistuarmory:coif",
+        "quantity": 1,
+        "tag": "{Damage:0}"
+      },
+      {
+        "item": "magistuarmory:gambeson_chestplate",
+        "quantity": 1,
+        "tag": "{Damage:0}"
+      },
+      {
+        "item": "magistuarmory:pantyhose",
+        "quantity": 1,
+        "tag": "{Damage:0}"
+      },
+      {
+        "item": "magistuarmory:gambeson_boots",
+        "quantity": 1,
+        "tag": "{Damage:0}"
+      },
+      {
+        "item": "rogues:iron_dagger",
+        "quantity": 1,
+        "tag": "{Damage:0}"
+      },
+      {
+        "item": "magistuarmory:iron_buckler",
+        "quantity": 1,
+        "tag": "{Damage:0}"
+      },
+      {
+        "item": "archers:rapid_crossbow",
+        "quantity": 1,
+        "tag": "{Charged:0b,ChargedProjectiles:[],Damage:0}"
+      },
+      {
+        "item": "minecraft:arrow",
+        "quantity": 64,
+        "tag": "{}"
+      },
+      {
+        "item": "darkskills:thief_spell_book",
+        "quantity": 1,
+        "tag": "{}"
+      },
+      {
+        "item": "minecraft:potion",
+        "quantity": 3,
+        "tag": "{Potion:\"minecraft:water\",Purity:3}"
+      },
+      {
+        "item": "waystones:warp_stone",
+        "quantity": 1,
+        "tag": "{Damage:0}"
+      },
+      {
+        "item": "minecraft:bread",
+        "quantity": 10,
+        "tag": "{RotMultiplier:1.0d,RotValue:1.0d}"
+      },
+      {
+        "item": "paraglider:paraglider",
+        "quantity": 1,
+        "tag": "{}"
+      }
+    ]
+  },
+  {
+    "id": "knight",
+    "items": [
+      {
+        "item": "minecraft:iron_sword",
+        "quantity": 1,
+        "tag": "{Damage:0}"
+      },
+      {
+        "item": "magistuarmory:iron_pike",
+        "quantity": 1,
+        "tag": "{Damage:0}"
+      },
+      {
+        "item": "magistuarmory:iron_heatershield",
+        "quantity": 1,
+        "tag": "{Damage:0}"
+      },
+      {
+        "item": "magistuarmory:cuirassier_helmet",
+        "quantity": 1,
+        "tag": "{Damage:0}"
+      },
+      {
+        "item": "magistuarmory:cuirassier_chestplate",
+        "quantity": 1,
+        "tag": "{Damage:0}"
+      },
+      {
+        "item": "magistuarmory:cuirassier_leggings",
+        "quantity": 1,
+        "tag": "{Damage:0}"
+      },
+      {
+        "item": "magistuarmory:cuirassier_boots",
+        "quantity": 1,
+        "tag": "{Damage:0}"
+      },
+      {
+        "item": "darkskills:wanderingknight_spell_book",
+        "quantity": 1,
+        "tag": "{}"
+      },
+      {
+        "item": "minecraft:potion",
+        "quantity": 3,
+        "tag": "{Potion:\"minecraft:water\",Purity:3}"
+      },
+      {
+        "item": "waystones:warp_stone",
+        "quantity": 1,
+        "tag": "{Damage:0}"
+      },
+      {
+        "item": "minecraft:bread",
+        "quantity": 10,
+        "tag": "{RotMultiplier:1.0d,RotValue:1.0d}"
+      },
+      {
+        "item": "paraglider:paraglider",
+        "quantity": 1,
+        "tag": "{}"
+      }
+    ]
+  },
+  {
+    "id": "mage",
+    "items": [
+      {
+        "item": "darkskills:wizard_armor_head",
+        "quantity": 1,
+        "tag": "{Damage:0}"
+      },
+      {
+        "item": "darkskills:wizard_armor_chest",
+        "quantity": 1,
+        "tag": "{Damage:0}"
+      },
+      {
+        "item": "darkskills:wizard_armor_legs",
+        "quantity": 1,
+        "tag": "{Damage:0}"
+      },
+      {
+        "item": "darkskills:wizard_armor_feet",
+        "quantity": 1,
+        "tag": "{Damage:0}"
+      },
+      {
+        "item": "wizards:staff_wizard",
+        "quantity": 1,
+        "tag": "{Damage:0}"
+      },
+      {
+        "item": "darkskills:arcane_apprentice_spell_book",
+        "quantity": 1,
+        "tag": "{}"
+      },
+      {
+        "item": "minecraft:potion",
+        "quantity": 3,
+        "tag": "{Potion:\"minecraft:water\",Purity:3}"
+      },
+      {
+        "item": "waystones:warp_stone",
+        "quantity": 1,
+        "tag": "{Damage:0}"
+      },
+      {
+        "item": "minecraft:bread",
+        "quantity": 10,
+        "tag": "{RotMultiplier:1.0d,RotValue:1.0d}"
+      },
+      {
+        "item": "paraglider:paraglider",
+        "quantity": 1,
+        "tag": "{}"
+      }
+    ]
+  },
+  {
+    "id": "outcast",
+    "items": [
+      {
+        "item": "minecraft:potion",
+        "quantity": 3,
+        "tag": "{Potion:\"minecraft:water\",Purity:3}"
+      },
+      {
+        "item": "waystones:warp_stone",
+        "quantity": 1,
+        "tag": "{Damage:0}"
+      },
+      {
+        "item": "minecraft:bread",
+        "quantity": 10,
+        "tag": "{RotMultiplier:1.0d,RotValue:1.0d}"
+      },
+      {
+        "item": "paraglider:paraglider",
+        "quantity": 1,
+        "tag": "{}"
+      }
+    ]
+  },
+  {
+    "id": "ranger",
+    "items": [
+      {
+        "item": "minecraft:leather_helmet",
+        "quantity": 1,
+        "tag": "{Damage:0}"
+      },
+      {
+        "item": "minecraft:leather_chestplate",
+        "quantity": 1,
+        "tag": "{Damage:0}"
+      },
+      {
+        "item": "minecraft:leather_leggings",
+        "quantity": 1,
+        "tag": "{Damage:0}"
+      },
+      {
+        "item": "minecraft:leather_boots",
+        "quantity": 1,
+        "tag": "{Damage:0}"
+      },
+      {
+        "item": "archers:composite_longbow",
+        "quantity": 1,
+        "tag": "{Damage:0}"
+      },
+      {
+        "item": "minecraft:arrow",
+        "quantity": 64,
+        "tag": "{}"
+      },
+      {
+        "item": "magistuarmory:iron_pike",
+        "quantity": 1,
+        "tag": "{Damage:0}"
+      },
+      {
+        "item": "darkskills:hunter_spell_book",
+        "quantity": 1,
+        "tag": "{}"
+      },
+      {
+        "item": "minecraft:potion",
+        "quantity": 3,
+        "tag": "{Potion:\"minecraft:water\",Purity:3}"
+      },
+      {
+        "item": "waystones:warp_stone",
+        "quantity": 1,
+        "tag": "{Damage:0}"
+      },
+      {
+        "item": "minecraft:bread",
+        "quantity": 10,
+        "tag": "{RotMultiplier:1.0d,RotValue:1.0d}"
+      },
+      {
+        "item": "paraglider:paraglider",
+        "quantity": 1,
+        "tag": "{}"
+      }
+    ]
+  },
+  {
+    "id": "brave",
+    "items": [
+      {
+        "item": "minecraft:chainmail_helmet",
+        "quantity": 1,
+        "tag": "{Damage:0}"
+      },
+      {
+        "item": "magistuarmory:lamellar_chestplate",
+        "quantity": 1,
+        "tag": "{Damage:0}"
+      },
+      {
+        "item": "minecraft:chainmail_leggings",
+        "quantity": 1,
+        "tag": "{Damage:0}"
+      },
+      {
+        "item": "magistuarmory:lamellar_boots",
+        "quantity": 1,
+        "tag": "{Damage:0}"
+      },
+      {
+        "item": "simplyswords:iron_greataxe",
+        "quantity": 1,
+        "tag": "{Damage:0}"
+      },
+      {
+        "item": "darkskills:vikingr_spell_book",
+        "quantity": 1,
+        "tag": "{}"
+      },
+      {
+        "item": "minecraft:potion",
+        "quantity": 3,
+        "tag": "{Potion:\"minecraft:water\",Purity:3}"
+      },
+      {
+        "item": "waystones:warp_stone",
+        "quantity": 1,
+        "tag": "{Damage:0}"
+      },
+      {
+        "item": "minecraft:bread",
+        "quantity": 10,
+        "tag": "{RotMultiplier:1.0d,RotValue:1.0d}"
+      },
+      {
+        "item": "paraglider:paraglider",
+        "quantity": 1,
+        "tag": "{}"
+      }
+    ]
+  },
+  {
+    "id": "emagic",
+    "items": [
+      {
+        "item": "immersive_armors:bone_chestplate",
+        "quantity": 1,
+        "tag": "{Damage:0}"
+      },
+      {
+        "item": "immersive_armors:bone_leggings",
+        "quantity": 1,
+        "tag": "{Damage:0}"
+      },
+      {
+        "item": "magistuarmoryaddon:shoes",
+        "quantity": 1,
+        "tag": "{Damage:0}"
+      },
+      {
+        "item": "rogues:iron_sickle",
+        "quantity": 1,
+        "tag": "{Damage:0}"
+      },
+      {
+        "item": "darkskills:warlock_spell_book",
+        "quantity": 1,
+        "tag": "{}"
+      },
+      {
+        "item": "minecraft:potion",
+        "quantity": 3,
+        "tag": "{Potion:\"minecraft:water\",Purity:3}"
+      },
+      {
+        "item": "waystones:warp_stone",
+        "quantity": 1,
+        "tag": "{Damage:0}"
+      },
+      {
+        "item": "minecraft:bread",
+        "quantity": 10,
+        "tag": "{RotMultiplier:1.0d,RotValue:1.0d}"
+      },
+      {
+        "item": "paraglider:paraglider",
+        "quantity": 1,
+        "tag": "{}"
+      }
+    ]
+  },
+  {
+    "id": "priest",
+    "items": [
+    {
+      "item": "slavicarmory:shapka",
+      "quantity": 1,
+      "tag": "{Damage:0}"
+    },
+    {
+      "item": "magistuarmoryaddon:tunic",
+      "quantity": 1,
+      "tag": "{Damage:0}"
+    },
+    {
+      "item": "magistuarmoryaddon:tunic_boots",
+      "quantity": 1,
+      "tag": "{Damage:0}"
+    },
+    {
+      "item": "paladins:acolyte_wand",
+      "quantity": 1,
+      "tag": "{Damage:0}"
+    },
+    {
+      "item": "darkskills:cleric_spell_book",
+      "quantity": 1,
+      "tag": "{}"
+    },
+    {
+      "item": "minecraft:potion",
+      "quantity": 3,
+      "tag": "{Potion:\"minecraft:water\",Purity:3}"
+    },
+    {
+      "item": "waystones:warp_stone",
+      "quantity": 1,
+      "tag": "{Damage:0}"
+    },
+    {
+      "item": "minecraft:bread",
+      "quantity": 10,
+      "tag": "{RotMultiplier:1.0d,RotValue:1.0d}"
+    },
+    {
+      "item": "paraglider:paraglider",
+      "quantity": 1,
+      "tag": "{}"
+    }
+    ]
+  }
+]

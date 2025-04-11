@@ -1,0 +1,42 @@
+{      
+"miningmaster:haste_peridot_axe": [
+  {
+    "attribute": "minecraft:generic.attack_speed",
+    "modify": 0.1,
+    "operation": "ADDITION"
+  }
+  ],
+"miningmaster:power_pyrite_axe": [
+  {
+    "attribute": "minecraft:generic.attack_damage",
+    "modify": 1.0,
+    "operation": "ADDITION"
+  }
+  ],
+"miningmaster:kinetic_opal_axe": [
+  {
+    "attribute": "minecraft:generic.attack_knockback",
+    "modify": 0.5,
+    "operation": "MULTIPLY_TOTAL"
+  }
+  ],
+"magistuarmoryaddon:steel_francisca_axe": [
+  {
+    "attribute": "minecraft:generic.attack_damage",
+    "modify": -1.0,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "minecraft:generic.attack_speed",
+    "modify": -0.1,
+    "operation": "ADDITION"
+  }
+  ],
+"magistuarmoryaddon:steel_war_axe": [
+  {
+    "attribute": "minecraft:generic.attack_damage",
+    "modify": -1.0,
+    "operation": "ADDITION"
+  }
+  ]
+}

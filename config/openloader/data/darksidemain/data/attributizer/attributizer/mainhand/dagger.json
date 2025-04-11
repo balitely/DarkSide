@@ -1,0 +1,184 @@
+{
+"rogues:flint_dagger": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": -1.8,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "iguanatweaksreborn:piercing_damage",
+      "modify": 1.8,
+      "operation": "ADDITION"
+    }
+  ], 
+"rogues:iron_dagger": [
+  {
+    "attribute": "minecraft:generic.attack_damage",
+    "modify": -2.15,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "iguanatweaksreborn:piercing_damage",
+    "modify": 2.15,
+    "operation": "ADDITION"
+  }
+  ], 
+"rogues:netherite_dagger": [
+  {
+    "attribute": "minecraft:generic.attack_damage",
+    "modify": -2.85,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "iguanatweaksreborn:piercing_damage",
+    "modify": 2.85,
+    "operation": "ADDITION"
+  }
+  ],
+"rogues:diamond_dagger": [
+  {
+    "attribute": "minecraft:generic.attack_damage",
+    "modify": -2.5,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "iguanatweaksreborn:piercing_damage",
+    "modify": 2.5,
+    "operation": "ADDITION"
+  }
+  ],
+"rogues:golden_dagger": [
+  {
+    "attribute": "minecraft:generic.attack_damage",
+    "modify": -1.4,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "iguanatweaksreborn:piercing_damage",
+    "modify": 1.4,
+    "operation": "ADDITION"
+  }
+  ],
+"magistuarmoryaddon:steel_rondel_dagger": [
+  {
+    "attribute": "minecraft:generic.attack_damage",
+    "modify": -2.8,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "iguanatweaksreborn:piercing_damage",
+    "modify": 2.8,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "attribute_extra:reduce_damage",
+    "modify": 0.5,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "minecraft:generic.attack_speed",
+    "modify": 0.75,
+    "operation": "ADDITION"
+  }
+  ],
+"magistuarmoryaddon:steel_parrying_dagger": [
+  {
+    "attribute": "minecraft:generic.attack_damage",
+    "modify": -2.7,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "iguanatweaksreborn:piercing_damage",
+    "modify": 2.7,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "attribute_extra:reduce_damage",
+    "modify": 0.5,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "minecraft:generic.attack_speed",
+    "modify": 0.43,
+    "operation": "ADDITION"
+  }
+  ],
+"magistuarmoryaddon:steel_bollock_dagger": [
+  {
+    "attribute": "minecraft:generic.attack_damage",
+    "modify": -3.0,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "iguanatweaksreborn:piercing_damage",
+    "modify": 3.5,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "attribute_extra:reduce_damage",
+    "modify": 0.5,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "minecraft:generic.attack_speed",
+    "modify": 0.6,
+    "operation": "ADDITION"
+  }
+  ],
+"fantasy_weapons:weapon_thief_dagger": [
+  {
+    "attribute": "minecraft:generic.attack_damage",
+    "modify": -4.5,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "iguanatweaksreborn:piercing_damage",
+    "modify": 4.0,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "minecraft:generic.attack_speed",
+    "modify": 0.8,
+    "operation": "ADDITION"
+  }
+  ],
+"fantasy_weapons:weapon_savage_dagger": [
+  {
+    "attribute": "minecraft:generic.attack_damage",
+    "modify": -4.5,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "iguanatweaksreborn:piercing_damage",
+    "modify": 3.5,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "lhmiracleroad:critical_hit_rate",
+    "modify": 10.0,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "minecraft:generic.attack_speed",
+    "modify": 0.8,
+    "operation": "ADDITION"
+  }
+  ],
+"fantasy_weapons:weapon_old_dagger": [
+  {
+    "attribute": "minecraft:generic.attack_damage",
+    "modify": -4.5,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "iguanatweaksreborn:piercing_damage",
+    "modify": 4.0,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "minecraft:generic.attack_speed",
+    "modify": 0.8,
+    "operation": "ADDITION"
+  }
+  ]
+}

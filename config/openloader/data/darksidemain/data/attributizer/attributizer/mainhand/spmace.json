@@ -1,0 +1,93 @@
+{
+"magistuarmory:gold_heavymace": [
+    {
+      "attribute": "rpgsp:spregenperattack",
+      "modify": 22.0,
+      "operation": "ADDITION"
+    }
+  ],
+"magistuarmory:wood_heavymace": [
+    {
+      "attribute": "rpgsp:spregenperattack",
+      "modify": 22.0,
+      "operation": "ADDITION"
+    }
+  ],
+"magistuarmory:stone_heavymace": [
+    {
+      "attribute": "rpgsp:spregenperattack",
+      "modify": 22.0,
+      "operation": "ADDITION"
+    }
+  ],
+"magistuarmory:iron_heavymace": [
+    {
+      "attribute": "rpgsp:spregenperattack",
+      "modify": 22.0,
+      "operation": "ADDITION"
+    }
+  ],
+"magistuarmory:copper_heavymace": [
+    {
+      "attribute": "rpgsp:spregenperattack",
+      "modify": 22.0,
+      "operation": "ADDITION"
+    }
+  ],
+"magistuarmory:netherite_heavymace": [
+    {
+      "attribute": "rpgsp:spregenperattack",
+      "modify": 22.0,
+      "operation": "ADDITION"
+    }
+  ],
+"magistuarmory:diamond_heavymace": [
+    {
+      "attribute": "rpgsp:spregenperattack",
+      "modify": 22.0,
+      "operation": "ADDITION"
+    }
+  ],
+"magistuarmoryaddon:steel_round_mace": [
+    {
+      "attribute": "rpgsp:spregenperattack",
+      "modify": 22.0,
+      "operation": "ADDITION"
+    }
+  ],
+"magistuarmory:steel_heavymace": [
+    {
+      "attribute": "rpgsp:spregenperattack",
+      "modify": 22.0,
+      "operation": "ADDITION"
+    }
+  ],
+"fantasy_weapons:weapon_savage_hammer": [
+    {
+      "attribute": "rpgsp:spregenperattack",
+      "modify": 22.0,
+      "operation": "ADDITION"
+    }
+  ],
+"magistuarmory:rusted_heavymace": [
+    {
+      "attribute": "rpgsp:spregenperattack",
+      "modify": 22.0,
+      "operation": "ADDITION"
+    }
+  ],
+"magistuarmory:club": [
+    {
+      "attribute": "rpgsp:spregenperattack",
+      "modify": 22.0,
+      "operation": "ADDITION"
+    }
+  ],       
+"magistuarmory:silver_heavymace": [
+    {
+      "attribute": "rpgsp:spregenperattack",
+      "modify": 22.0,
+      "operation": "ADDITION"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "entity": "legendary_monsters:haunted_knight",
+  "name": "着魔盔甲",
+  "visualscale": 1.2,
+  "experience": 500,
+  "effects": {},
+  "attributes": {
+    "generic.max_health": 2000,
+    "generic.follow_range": 24,
+    "generic.knockback_resistance": 2,
+    "generic.attack_damage": 10
+  },
+  "customattributes": {
+  },
+  "gear": {
+  },
+  "ai-goals": {
+    "brutalbosses:charge": {
+      "mindist": 1,
+      "duration": 3,
+      "interval": 10
+    }
+  },
+  "spawnatchest": {}
+}

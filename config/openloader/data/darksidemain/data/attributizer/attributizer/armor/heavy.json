@@ -1,0 +1,1159 @@
+{
+  "minecraft:iron_helmet": [
+    {
+      "attribute": "combatroll:recharge",
+      "modify": -1.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_speed",
+      "modify": -0.02,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "spell_power:haste",
+      "modify": -1.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "modify": -0.0025,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "combatroll:distance",
+      "modify": -0.25,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "modify": 1.0,
+      "operation": "ADDITION"
+    }
+  ],
+  "minecraft:iron_chestplate": [
+    {
+      "attribute": "combatroll:recharge",
+      "modify": -1.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_speed",
+      "modify": -0.02,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "spell_power:haste",
+      "modify": -1.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "modify": -0.0025,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "combatroll:distance",
+      "modify": -0.25,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "modify": 1.0,
+      "operation": "ADDITION"
+    }
+  ],
+"minecraft:iron_leggings": [
+    {
+      "attribute": "combatroll:recharge",
+      "modify": -1.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_speed",
+      "modify": -0.02,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "spell_power:haste",
+      "modify": -1.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "modify": -0.0025,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "combatroll:distance",
+      "modify": -0.25,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "modify": 1.0,
+      "operation": "ADDITION"
+    }
+  ],
+"minecraft:iron_boots": [
+    {
+      "attribute": "combatroll:recharge",
+      "modify": -1.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_speed",
+      "modify": -0.02,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "spell_power:haste",
+      "modify": -1.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "modify": -0.0025,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "combatroll:distance",
+      "modify": -0.25,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "modify": 1.0,
+      "operation": "ADDITION"
+    }
+  ],
+  "magistuarmory:rustednorman_helmet": [
+    {
+      "attribute": "combatroll:recharge",
+      "modify": -1.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_speed",
+      "modify": -0.02,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "spell_power:haste",
+      "modify": -1.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "modify": -0.0025,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "combatroll:distance",
+      "modify": -0.25,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "modify": 1.0,
+      "operation": "ADDITION"
+    }
+  ],
+"magistuarmory:rustedkettlehat": [
+    {
+      "attribute": "combatroll:recharge",
+      "modify": -1.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_speed",
+      "modify": -0.02,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "spell_power:haste",
+      "modify": -1.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "modify": -0.0025,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "combatroll:distance",
+      "modify": -0.25,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "modify": 1.0,
+      "operation": "ADDITION"
+    }
+  ],
+"magistuarmory:rustedbarbute": [
+    {
+      "attribute": "combatroll:recharge",
+      "modify": -1.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_speed",
+      "modify": -0.02,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "spell_power:haste",
+      "modify": -1.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "modify": -0.0025,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "combatroll:distance",
+      "modify": -0.25,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "modify": 1.0,
+      "operation": "ADDITION"
+    }
+  ],
+"magistuarmory:rustedhalfarmor_chestplate": [
+    {
+      "attribute": "combatroll:recharge",
+      "modify": -1.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_speed",
+      "modify": -0.02,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "spell_power:haste",
+      "modify": -1.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "modify": -0.0025,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "combatroll:distance",
+      "modify": -0.25,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "modify": 1.0,
+      "operation": "ADDITION"
+    }
+  ],
+"magistuarmory:rustedgreathelm": [
+    {
+      "attribute": "combatroll:recharge",
+      "modify": -1.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_speed",
+      "modify": -0.02,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "spell_power:haste",
+      "modify": -1.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "modify": -0.0025,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "combatroll:distance",
+      "modify": -0.25,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "modify": 1.0,
+      "operation": "ADDITION"
+    }
+  ],
+"magistuarmory:rustedcrusader_chestplate": [
+    {
+      "attribute": "combatroll:recharge",
+      "modify": -1.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_speed",
+      "modify": -0.02,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "spell_power:haste",
+      "modify": -1.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "modify": -0.0025,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "combatroll:distance",
+      "modify": -0.25,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "modify": 1.0,
+      "operation": "ADDITION"
+    }
+  ],
+"magistuarmory:rustedcrusader_boots": [
+    {
+      "attribute": "combatroll:recharge",
+      "modify": -1.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_speed",
+      "modify": -0.02,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "spell_power:haste",
+      "modify": -1.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "modify": -0.0025,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "combatroll:distance",
+      "modify": -0.25,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "modify": 1.0,
+      "operation": "ADDITION"
+    }
+  ],
+"magistuarmory:greathelm": [
+    {
+      "attribute": "combatroll:recharge",
+      "modify": -1.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_speed",
+      "modify": -0.02,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "spell_power:haste",
+      "modify": -1.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "modify": -0.0025,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "combatroll:distance",
+      "modify": -0.25,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "modify": 1.0,
+      "operation": "ADDITION"
+    }
+  ],
+"magistuarmory:crusader_chestplate": [
+    {
+      "attribute": "combatroll:recharge",
+      "modify": -1.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_speed",
+      "modify": -0.02,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "spell_power:haste",
+      "modify": -1.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "modify": -0.0025,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "combatroll:distance",
+      "modify": -0.25,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "modify": 1.0,
+      "operation": "ADDITION"
+    }
+  ],
+"magistuarmory:crusader_leggings": [
+    {
+      "attribute": "combatroll:recharge",
+      "modify": -1.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_speed",
+      "modify": -0.02,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "spell_power:haste",
+      "modify": -1.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "modify": -0.0025,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "combatroll:distance",
+      "modify": -0.25,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "modify": 1.0,
+      "operation": "ADDITION"
+    }
+  ],
+"magistuarmory:crusader_boots": [
+    {
+      "attribute": "combatroll:recharge",
+      "modify": -1.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_speed",
+      "modify": -0.02,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "spell_power:haste",
+      "modify": -1.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "modify": -0.0025,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "combatroll:distance",
+      "modify": -0.25,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "modify": 1.0,
+      "operation": "ADDITION"
+    }
+  ],
+
+"magistuarmory:face_helmet": [
+    {
+      "attribute": "combatroll:recharge",
+      "modify": -1.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_speed",
+      "modify": -0.02,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "spell_power:haste",
+      "modify": -1.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "modify": -0.0025,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "combatroll:distance",
+      "modify": -0.25,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "modify": 1.0,
+      "operation": "ADDITION"
+    }
+  ],
+"slavicarmory:rus_chainmail_coif": [
+    {
+      "attribute": "combatroll:recharge",
+      "modify": -1.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_speed",
+      "modify": -0.02,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "spell_power:haste",
+      "modify": -1.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "modify": -0.0025,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "combatroll:distance",
+      "modify": -0.25,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "modify": 1.0,
+      "operation": "ADDITION"
+    }
+  ],
+"slavicarmory:rus_chainmail_chestplate": [
+    {
+      "attribute": "combatroll:recharge",
+      "modify": -1.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_speed",
+      "modify": -0.02,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "spell_power:haste",
+      "modify": -1.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "modify": -0.0025,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "combatroll:distance",
+      "modify": -0.25,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "modify": 1.0,
+      "operation": "ADDITION"
+    }
+  ],
+"slavicarmory:rus_chainmail_leggings": [
+    {
+      "attribute": "combatroll:recharge",
+      "modify": -1.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_speed",
+      "modify": -0.02,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "spell_power:haste",
+      "modify": -1.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "modify": -0.0025,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "combatroll:distance",
+      "modify": -0.25,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "modify": 1.0,
+      "operation": "ADDITION"
+    }
+  ],
+"slavicarmory:rus_chainmail_boots": [
+    {
+      "attribute": "combatroll:recharge",
+      "modify": -1.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_speed",
+      "modify": -0.02,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "spell_power:haste",
+      "modify": -1.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "modify": -0.0025,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "combatroll:distance",
+      "modify": -0.25,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "modify": 1.0,
+      "operation": "ADDITION"
+    }
+  ],
+
+"minecraft:golden_helmet": [
+    {
+      "attribute": "combatroll:recharge",
+      "modify": -1.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_speed",
+      "modify": -0.02,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "spell_power:haste",
+      "modify": -1.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "modify": -0.0025,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "combatroll:distance",
+      "modify": -0.25,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "modify": 1.0,
+      "operation": "ADDITION"
+    }
+  ],
+"minecraft:golden_chestplate": [
+    {
+      "attribute": "combatroll:recharge",
+      "modify": -1.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_speed",
+      "modify": -0.02,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "spell_power:haste",
+      "modify": -1.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "modify": -0.0025,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "combatroll:distance",
+      "modify": -0.25,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "modify": 1.0,
+      "operation": "ADDITION"
+    }
+  ],
+"minecraft:golden_leggings": [
+    {
+      "attribute": "combatroll:recharge",
+      "modify": -1.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_speed",
+      "modify": -0.02,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "spell_power:haste",
+      "modify": -1.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "modify": -0.0025,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "combatroll:distance",
+      "modify": -0.25,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "modify": 1.0,
+      "operation": "ADDITION"
+    }
+  ],
+"minecraft:golden_boots": [
+    {
+      "attribute": "combatroll:recharge",
+      "modify": -1.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_speed",
+      "modify": -0.02,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "spell_power:haste",
+      "modify": -1.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "modify": -0.0025,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "combatroll:distance",
+      "modify": -0.25,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "modify": 1.0,
+      "operation": "ADDITION"
+    }
+  ],
+
+"magistuarmory:bascinet": [
+    {
+      "attribute": "combatroll:recharge",
+      "modify": -1.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_speed",
+      "modify": -0.02,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "spell_power:haste",
+      "modify": -1.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "modify": -0.0025,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "combatroll:distance",
+      "modify": -0.25,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "modify": 1.0,
+      "operation": "ADDITION"
+    }
+  ],
+"magistuarmory:xivcenturyknight_chestplate": [
+    {
+      "attribute": "combatroll:recharge",
+      "modify": -1.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_speed",
+      "modify": -0.02,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "spell_power:haste",
+      "modify": -1.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "modify": -0.0025,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "combatroll:distance",
+      "modify": -0.25,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "modify": 1.0,
+      "operation": "ADDITION"
+    }
+  ],
+"magistuarmory:xivcenturyknight_leggings": [
+    {
+      "attribute": "combatroll:recharge",
+      "modify": -1.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_speed",
+      "modify": -0.02,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "spell_power:haste",
+      "modify": -1.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "modify": -0.0025,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "combatroll:distance",
+      "modify": -0.25,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "modify": 1.0,
+      "operation": "ADDITION"
+    }
+  ],
+"magistuarmory:xivcenturyknight_boots": [
+    {
+      "attribute": "combatroll:recharge",
+      "modify": -1.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_speed",
+      "modify": -0.02,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "spell_power:haste",
+      "modify": -1.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "modify": -0.0025,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "combatroll:distance",
+      "modify": -0.25,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "modify": 1.0,
+      "operation": "ADDITION"
+    }
+  ],
+
+"composite_material:amethyst_helmet": [
+    {
+      "attribute": "combatroll:recharge",
+      "modify": -1.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_speed",
+      "modify": -0.02,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "spell_power:haste",
+      "modify": -1.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "modify": -0.0025,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "combatroll:distance",
+      "modify": -0.25,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "modify": 1.0,
+      "operation": "ADDITION"
+    }
+  ],
+"composite_material:amethyst_chestplate": [
+    {
+      "attribute": "combatroll:recharge",
+      "modify": -1.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_speed",
+      "modify": -0.02,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "spell_power:haste",
+      "modify": -1.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "modify": -0.0025,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "combatroll:distance",
+      "modify": -0.25,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "modify": 1.0,
+      "operation": "ADDITION"
+    }
+  ],
+"composite_material:amethyst_leggings": [
+    {
+      "attribute": "combatroll:recharge",
+      "modify": -1.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_speed",
+      "modify": -0.02,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "spell_power:haste",
+      "modify": -1.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "modify": -0.0025,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "combatroll:distance",
+      "modify": -0.25,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "modify": 1.0,
+      "operation": "ADDITION"
+    }
+  ],
+"composite_material:amethyst_boots": [
+    {
+      "attribute": "combatroll:recharge",
+      "modify": -1.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_speed",
+      "modify": -0.02,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "spell_power:haste",
+      "modify": -1.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "modify": -0.0025,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "combatroll:distance",
+      "modify": -0.25,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "modify": 1.0,
+      "operation": "ADDITION"
+    }
+  ],
+
+"magistuarmory:kettlehat": [
+    {
+      "attribute": "combatroll:recharge",
+      "modify": -1.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_speed",
+      "modify": -0.02,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "spell_power:haste",
+      "modify": -1.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "modify": -0.0025,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "combatroll:distance",
+      "modify": -0.25,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "modify": 1.0,
+      "operation": "ADDITION"
+    }
+  ],
+"magistuarmory:platemail_chestplate": [
+    {
+      "attribute": "combatroll:recharge",
+      "modify": -1.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_speed",
+      "modify": -0.02,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "spell_power:haste",
+      "modify": -1.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "modify": -0.0025,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "combatroll:distance",
+      "modify": -0.25,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "modify": 1.0,
+      "operation": "ADDITION"
+    }
+  ],
+"magistuarmory:platemail_leggings": [
+    {
+      "attribute": "combatroll:recharge",
+      "modify": -1.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_speed",
+      "modify": -0.02,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "spell_power:haste",
+      "modify": -1.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "modify": -0.0025,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "combatroll:distance",
+      "modify": -0.25,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "modify": 1.0,
+      "operation": "ADDITION"
+    }
+  ],
+"magistuarmory:platemail_boots": [
+    {
+      "attribute": "combatroll:recharge",
+      "modify": -1.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_speed",
+      "modify": -0.02,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "spell_power:haste",
+      "modify": -1.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "modify": -0.0025,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "combatroll:distance",
+      "modify": -0.25,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "modify": 1.0,
+      "operation": "ADDITION"
+    }
+  ]
+}

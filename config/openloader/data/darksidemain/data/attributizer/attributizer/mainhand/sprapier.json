@@ -1,0 +1,37 @@
+{
+"simplyswords:netherite_rapier": [
+    {
+      "attribute": "rpgsp:spregenperattack",
+      "modify": 15.0,
+      "operation": "ADDITION"
+    }
+  ],
+"simplyswords:diamond_rapier": [
+    {
+      "attribute": "rpgsp:spregenperattack",
+      "modify": 15.0,
+      "operation": "ADDITION"
+    }
+  ],
+"simplyswords:gold_rapier": [
+    {
+      "attribute": "rpgsp:spregenperattack",
+      "modify": 15.0,
+      "operation": "ADDITION"
+    }
+  ],
+"simplyswords:iron_rapier": [
+    {
+      "attribute": "rpgsp:spregenperattack",
+      "modify": 15.0,
+      "operation": "ADDITION"
+    }
+  ],
+"magistuarmoryaddon:steel_rapier": [
+    {
+      "attribute": "rpgsp:spregenperattack",
+      "modify": 15.0,
+      "operation": "ADDITION"
+    }
+  ]
+}

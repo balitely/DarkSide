@@ -1,0 +1,150 @@
+{
+"composite_material:obsidian_helmet": [
+    {
+      "attribute": "combatroll:recharge",
+      "modify": -3.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_speed",
+      "modify": -0.07,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "spell_power:haste",
+      "modify": -3.5,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "modify": -0.008,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "combatroll:distance",
+      "modify": -0.7,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "modify": 3.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "combatroll:count",
+      "modify": -0.5,
+      "operation": "ADDITION"
+    }
+  ],
+"composite_material:obsidian_chestplate": [
+    {
+      "attribute": "combatroll:recharge",
+      "modify": -3.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_speed",
+      "modify": -0.07,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "spell_power:haste",
+      "modify": -3.5,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "modify": -0.008,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "combatroll:distance",
+      "modify": -0.7,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "modify": 3.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "combatroll:count",
+      "modify": -0.5,
+      "operation": "ADDITION"
+    }
+  ],
+"composite_material:obsidian_leggings": [
+    {
+      "attribute": "combatroll:recharge",
+      "modify": -3.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_speed",
+      "modify": -0.07,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "spell_power:haste",
+      "modify": -3.5,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "modify": -0.008,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "combatroll:distance",
+      "modify": -0.7,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "modify": 3.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "combatroll:count",
+      "modify": -0.5,
+      "operation": "ADDITION"
+    }
+  ],
+"composite_material:obsidian_boots": [
+    {
+      "attribute": "combatroll:recharge",
+      "modify": -3.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_speed",
+      "modify": -0.07,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "spell_power:haste",
+      "modify": -3.5,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "modify": -0.008,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "combatroll:distance",
+      "modify": -0.7,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "modify": 3.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "combatroll:count",
+      "modify": -0.5,
+      "operation": "ADDITION"
+    }
+  ]
+}

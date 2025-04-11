@@ -1,0 +1,16 @@
+{
+"mine_and_staff:iolite_staff": [
+  {
+    "attribute": "spell_power:healing",
+    "modify": 4.5,
+    "operation": "ADDITION"
+  }
+  ],
+"mine_and_staff:roots_staff": [
+  {
+    "attribute": "spell_power:healing",
+    "modify": 4.5,
+    "operation": "ADDITION"
+  }
+  ]
+}

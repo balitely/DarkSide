@@ -1,0 +1,247 @@
+{
+"minecraft:diamond_helmet":[
+    {
+      "attribute": "rpgmana:mana",
+      "modify": 0.1,
+      "operation": "MULTIPLY_TOTAL"
+    },
+    {
+        "attribute": "extraspellattributes:reabsorption",
+        "modify": 0.1,
+        "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+"minecraft:diamond_chestplate":[
+    {
+      "attribute": "rpgmana:mana",
+      "modify": 0.1,
+      "operation": "MULTIPLY_TOTAL"
+    },
+    {
+      "attribute": "rpgmana:manaregen",
+      "modify": 0.1,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+"minecraft:diamond_leggings":[
+    {
+      "attribute": "rpgmana:mana",
+      "modify": 0.1,
+      "operation": "MULTIPLY_TOTAL"
+    },
+    {
+      "attribute": "rpgmana:manaregen",
+      "modify": 0.1,
+      "operation": "MULTIPLY_TOTAL"
+    },
+    {
+        "attribute": "extraspellattributes:reabsorption",
+        "modify": 0.1,
+        "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+"minecraft:diamond_boots":[
+    {
+      "attribute": "rpgmana:mana",
+      "modify": 0.1,
+      "operation": "MULTIPLY_TOTAL"
+    },
+    {
+      "attribute": "rpgmana:manaregen",
+      "modify": 0.1,
+      "operation": "MULTIPLY_TOTAL"
+    },
+    {
+        "attribute": "extraspellattributes:reabsorption",
+        "modify": 0.1,
+        "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+
+"immersive_armors:wooden_helmet":[
+    {
+      "attribute": "rpgmana:mana",
+      "modify": 0.1,
+      "operation": "MULTIPLY_TOTAL"
+    },
+    {
+      "attribute": "rpgmana:manaregen",
+      "modify": 0.1,
+      "operation": "MULTIPLY_TOTAL"
+    },
+    {
+        "attribute": "extraspellattributes:reabsorption",
+        "modify": 0.1,
+        "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+"immersive_armors:wooden_chestplate":[
+    {
+      "attribute": "rpgmana:mana",
+      "modify": 0.1,
+      "operation": "MULTIPLY_TOTAL"
+    },
+    {
+      "attribute": "rpgmana:manaregen",
+      "modify": 0.1,
+      "operation": "MULTIPLY_TOTAL"
+    },
+    {
+        "attribute": "extraspellattributes:reabsorption",
+        "modify": 0.1,
+        "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+"immersive_armors:wooden_leggings":[
+    {
+      "attribute": "rpgmana:mana",
+      "modify": 0.1,
+      "operation": "MULTIPLY_TOTAL"
+    },
+    {
+      "attribute": "rpgmana:manaregen",
+      "modify": 0.1,
+      "operation": "MULTIPLY_TOTAL"
+    },
+    {
+        "attribute": "extraspellattributes:reabsorption",
+        "modify": 0.1,
+        "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+"immersive_armors:wooden_boots":[
+    {
+      "attribute": "rpgmana:mana",
+      "modify": 0.1,
+      "operation": "MULTIPLY_TOTAL"
+    },
+    {
+      "attribute": "rpgmana:manaregen",
+      "modify": 0.1,
+      "operation": "MULTIPLY_TOTAL"
+    },
+    {
+        "attribute": "extraspellattributes:reabsorption",
+        "modify": 0.1,
+        "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+
+"composite_material:copper_helmet":[
+    {
+      "attribute": "rpgmana:mana",
+      "modify": 0.1,
+      "operation": "MULTIPLY_TOTAL"
+    },
+    {
+      "attribute": "rpgmana:manaregen",
+      "modify": 0.1,
+      "operation": "MULTIPLY_TOTAL"
+    },
+    {
+        "attribute": "extraspellattributes:reabsorption",
+        "modify": 0.1,
+        "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+"composite_material:copper_chestplate":[
+    {
+      "attribute": "rpgmana:mana",
+      "modify": 0.1,
+      "operation": "MULTIPLY_TOTAL"
+    },
+    {
+      "attribute": "rpgmana:manaregen",
+      "modify": 0.1,
+      "operation": "MULTIPLY_TOTAL"
+    },
+    {
+        "attribute": "extraspellattributes:reabsorption",
+        "modify": 0.1,
+        "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+"composite_material:copper_leggings":[
+    {
+      "attribute": "rpgmana:mana",
+      "modify": 0.1,
+      "operation": "MULTIPLY_TOTAL"
+    },
+    {
+      "attribute": "rpgmana:manaregen",
+      "modify": 0.1,
+      "operation": "MULTIPLY_TOTAL"
+    },
+    {
+        "attribute": "extraspellattributes:reabsorption",
+        "modify": 0.1,
+        "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+"composite_material:copper_boots":[
+    {
+      "attribute": "rpgmana:mana",
+      "modify": 0.1,
+      "operation": "MULTIPLY_TOTAL"
+    },
+    {
+      "attribute": "rpgmana:manaregen",
+      "modify": 0.1,
+      "operation": "MULTIPLY_TOTAL"
+    },
+    {
+        "attribute": "extraspellattributes:reabsorption",
+        "modify": 0.1,
+        "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+
+"composite_material:obsidian_helmet":[
+    {
+      "attribute": "rpgmana:mana",
+      "modify": 0.1,
+      "operation": "MULTIPLY_TOTAL"
+    },
+    {
+      "attribute": "rpgmana:manaregen",
+      "modify": 0.1,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+"composite_material:obsidian_chestplate":[
+    {
+      "attribute": "rpgmana:mana",
+      "modify": 0.1,
+      "operation": "MULTIPLY_TOTAL"
+    },
+    {
+      "attribute": "rpgmana:manaregen",
+      "modify": 0.1,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+"composite_material:obsidian_leggings":[
+    {
+      "attribute": "rpgmana:mana",
+      "modify": 0.1,
+      "operation": "MULTIPLY_TOTAL"
+    },
+    {
+      "attribute": "rpgmana:manaregen",
+      "modify": 0.1,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+"composite_material:obsidian_boots":[
+    {
+      "attribute": "rpgmana:mana",
+      "modify": 0.1,
+      "operation": "MULTIPLY_TOTAL"
+    },
+    {
+      "attribute": "rpgmana:manaregen",
+      "modify": 0.1,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ]
+}

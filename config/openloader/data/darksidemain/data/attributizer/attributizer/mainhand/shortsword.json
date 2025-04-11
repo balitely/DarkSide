@@ -1,0 +1,155 @@
+{
+  "magistuarmory:gold_shortsword": [
+    {
+      "attribute": "minecraft:generic.attack_speed",
+      "modify": 0.1,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": -1.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "iguanatweaksreborn:piercing_damage",
+      "modify": 1.0,
+      "operation": "ADDITION"
+    }
+  ],
+  "magistuarmory:wood_shortsword": [
+    {
+      "attribute": "minecraft:generic.attack_speed",
+      "modify": 0.1,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": -1.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "iguanatweaksreborn:piercing_damage",
+      "modify": 1.0,
+      "operation": "ADDITION"
+    }
+  ],
+  "magistuarmory:stone_shortsword": [
+    {
+      "attribute": "minecraft:generic.attack_speed",
+      "modify": 0.1,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": -1.3,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "iguanatweaksreborn:piercing_damage",
+      "modify": 1.3,
+      "operation": "ADDITION"
+    }
+  ],
+  "magistuarmory:iron_shortsword": [
+    {
+      "attribute": "minecraft:generic.attack_speed",
+      "modify": 0.1,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": -1.6,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "iguanatweaksreborn:piercing_damage",
+      "modify": 1.6,
+      "operation": "ADDITION"
+    }
+  ],
+  "magistuarmory:copper_shortsword": [
+    {
+      "attribute": "minecraft:generic.attack_speed",
+      "modify": 0.1,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": -1.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "iguanatweaksreborn:piercing_damage",
+      "modify": 1.0,
+      "operation": "ADDITION"
+    }
+  ],
+  "magistuarmory:diamond_shortsword": [
+    {
+      "attribute": "minecraft:generic.attack_speed",
+      "modify": 0.1,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": -1.9,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "iguanatweaksreborn:piercing_damage",
+      "modify": 1.9,
+      "operation": "ADDITION"
+    }
+  ],
+  "magistuarmory:netherite_shortsword": [
+    {
+      "attribute": "minecraft:generic.attack_speed",
+      "modify": 0.1,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": -2.1,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "iguanatweaksreborn:piercing_damage",
+      "modify": 2.1,
+      "operation": "ADDITION"
+    }
+  ],
+  "magistuarmory:silver_shortsword": [
+    {
+      "attribute": "minecraft:generic.attack_speed",
+      "modify": 0.1,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": -1.3,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "iguanatweaksreborn:piercing_damage",
+      "modify": 1.3,
+      "operation": "ADDITION"
+    }
+  ],
+  "magistuarmory:steel_shortsword": [
+    {
+      "attribute": "minecraft:generic.attack_speed",
+      "modify": 0.1,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": -1.7,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "iguanatweaksreborn:piercing_damage",
+      "modify": 1.7,
+      "operation": "ADDITION"
+    }
+  ]
+}

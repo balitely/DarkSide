@@ -1,0 +1,47 @@
+{
+  "school": "PHYSICAL_MELEE",
+  "range": 4,
+  "learn": {
+    "tier": 1
+  },
+  "cast": {
+    "duration": 0.7,
+    "animation": "darkskills:phalanx_breaker_1",
+    "sound": {
+      "id": "darkskills:spin_edge",
+      "randomness": 0
+    },
+    "channel_ticks": 8
+  },
+  "release": {
+    "animation": "darkskills:phalanx_breaker_2",
+    "target": {
+      "type": "AREA",
+      "area": {
+        "dropoffCurve": "SQUARED",
+        "horizontal_range_multiplier": 2.0,
+        "vertical_range_multiplier": 2.5,
+        "angle_degrees": 90
+      }
+    },
+    "sound": {
+      "id": "minecraft:entity.illusioner.cast_spell"
+    }
+  },
+  "impact": [
+    {
+      "action": {
+        "type": "DAMAGE",
+        "damage": {
+          "knockback": 0.0,
+          "spell_power_coefficient": 2.4
+        }
+      }
+    }
+  ],
+  "cost": {
+    "cooldown_duration": 5,
+    "cooldown_proportional": true,
+    "item_id": "minecraft:stick"
+  }
+}

@@ -1,0 +1,550 @@
+{
+"immersive_armors:bone_helmet":[
+  {
+    "attribute": "combatroll:count",
+    "modify": 0.5,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "combatroll:recharge",
+    "modify": 2.0,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "minecraft:generic.attack_speed",
+    "modify": 0.05,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "minecraft:generic.movement_speed",
+    "modify": 0.002,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "spell_power:haste",
+    "modify": 2.5,
+    "operation": "ADDITION"
+  }
+],
+"immersive_armors:bone_chestplate":[
+  {
+    "attribute": "combatroll:count",
+    "modify": 0.5,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "combatroll:recharge",
+    "modify": 2.0,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "minecraft:generic.attack_speed",
+    "modify": 0.05,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "minecraft:generic.movement_speed",
+    "modify": 0.002,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "spell_power:haste",
+    "modify": 2.5,
+    "operation": "ADDITION"
+  }
+],
+"immersive_armors:bone_leggings":[
+  {
+    "attribute": "combatroll:count",
+    "modify": 0.5,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "combatroll:recharge",
+    "modify": 2.0,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "minecraft:generic.attack_speed",
+    "modify": 0.05,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "minecraft:generic.movement_speed",
+    "modify": 0.002,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "spell_power:haste",
+    "modify": 2.5,
+    "operation": "ADDITION"
+  }
+],
+"immersive_armors:bone_boots":[
+  {
+    "attribute": "combatroll:count",
+    "modify": 0.5,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "combatroll:recharge",
+    "modify": 2.0,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "minecraft:generic.attack_speed",
+    "modify": 0.05,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "minecraft:generic.movement_speed",
+    "modify": 0.002,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "spell_power:haste",
+    "modify": 2.5,
+    "operation": "ADDITION"
+  }
+]
+,
+
+"majruszsdifficulty:tattered_helmet":[
+  {
+    "attribute": "combatroll:count",
+    "modify": 0.5,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "combatroll:recharge",
+    "modify": 2.0,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "minecraft:generic.attack_speed",
+    "modify": 0.05,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "minecraft:generic.movement_speed",
+    "modify": 0.002,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "spell_power:haste",
+    "modify": 2.5,
+    "operation": "ADDITION"
+  }
+],
+"majruszsdifficulty:tattered_chestplate":[
+  {
+    "attribute": "combatroll:count",
+    "modify": 0.5,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "combatroll:recharge",
+    "modify": 2.0,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "minecraft:generic.attack_speed",
+    "modify": 0.05,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "minecraft:generic.movement_speed",
+    "modify": 0.002,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "spell_power:haste",
+    "modify": 2.5,
+    "operation": "ADDITION"
+  }
+],
+"majruszsdifficulty:tattered_leggings":[
+  {
+    "attribute": "combatroll:count",
+    "modify": 0.5,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "combatroll:recharge",
+    "modify": 2.0,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "minecraft:generic.attack_speed",
+    "modify": 0.05,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "minecraft:generic.movement_speed",
+    "modify": 0.002,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "spell_power:haste",
+    "modify": 2.5,
+    "operation": "ADDITION"
+  }
+],
+"majruszsdifficulty:tattered_boots":[
+  {
+    "attribute": "combatroll:count",
+    "modify": 0.5,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "combatroll:recharge",
+    "modify": 2.0,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "minecraft:generic.attack_speed",
+    "modify": 0.05,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "minecraft:generic.movement_speed",
+    "modify": 0.002,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "spell_power:haste",
+    "modify": 2.5,
+    "operation": "ADDITION"
+  }
+]
+,
+
+"rogues:rogue_armor_head":[
+  {
+    "attribute": "combatroll:count",
+    "modify": 0.5,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "combatroll:recharge",
+    "modify": 2.0,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "minecraft:generic.attack_speed",
+    "modify": 0.05,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "minecraft:generic.movement_speed",
+    "modify": 0.002,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "spell_power:haste",
+    "modify": 2.5,
+    "operation": "ADDITION"
+  }
+],
+"rogues:rogue_armor_chest":[
+  {
+    "attribute": "combatroll:count",
+    "modify": 0.5,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "combatroll:recharge",
+    "modify": 2.0,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "minecraft:generic.attack_speed",
+    "modify": 0.05,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "minecraft:generic.movement_speed",
+    "modify": 0.002,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "spell_power:haste",
+    "modify": 2.5,
+    "operation": "ADDITION"
+  }
+],
+"rogues:rogue_armor_legs":[
+  {
+    "attribute": "combatroll:count",
+    "modify": 0.5,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "combatroll:recharge",
+    "modify": 2.0,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "minecraft:generic.attack_speed",
+    "modify": 0.05,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "minecraft:generic.movement_speed",
+    "modify": 0.002,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "spell_power:haste",
+    "modify": 2.5,
+    "operation": "ADDITION"
+  }
+],
+"rogues:rogue_armor_feet":[
+  {
+    "attribute": "combatroll:count",
+    "modify": 0.5,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "combatroll:recharge",
+    "modify": 2.0,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "minecraft:generic.attack_speed",
+    "modify": 0.05,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "minecraft:generic.movement_speed",
+    "modify": 0.002,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "spell_power:haste",
+    "modify": 2.5,
+    "operation": "ADDITION"
+  }
+]
+,
+
+"slavicarmory:shapka":[
+  {
+    "attribute": "combatroll:count",
+    "modify": 0.5,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "combatroll:recharge",
+    "modify": 2.0,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "minecraft:generic.attack_speed",
+    "modify": 0.05,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "minecraft:generic.movement_speed",
+    "modify": 0.002,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "spell_power:haste",
+    "modify": 2.5,
+    "operation": "ADDITION"
+  }
+],
+"magistuarmoryaddon:tunic":[
+  {
+    "attribute": "combatroll:count",
+    "modify": 0.5,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "combatroll:recharge",
+    "modify": 2.0,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "minecraft:generic.attack_speed",
+    "modify": 0.05,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "minecraft:generic.movement_speed",
+    "modify": 0.002,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "spell_power:haste",
+    "modify": 2.5,
+    "operation": "ADDITION"
+  }
+],
+"magistuarmoryaddon:tunic_boots":[
+  {
+    "attribute": "combatroll:count",
+    "modify": 0.5,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "combatroll:recharge",
+    "modify": 2.0,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "minecraft:generic.attack_speed",
+    "modify": 0.05,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "minecraft:generic.movement_speed",
+    "modify": 0.002,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "spell_power:haste",
+    "modify": 2.5,
+    "operation": "ADDITION"
+  }
+],
+"magistuarmoryaddon:shoes":[
+  {
+    "attribute": "combatroll:count",
+    "modify": 0.5,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "combatroll:recharge",
+    "modify": 2.0,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "minecraft:generic.attack_speed",
+    "modify": 0.05,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "minecraft:generic.movement_speed",
+    "modify": 0.002,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "spell_power:haste",
+    "modify": 2.5,
+    "operation": "ADDITION"
+  }
+]
+,
+
+"magistuarmory:coif":[
+  {
+    "attribute": "combatroll:count",
+    "modify": 0.5,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "combatroll:recharge",
+    "modify": 2.0,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "minecraft:generic.attack_speed",
+    "modify": 0.05,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "minecraft:generic.movement_speed",
+    "modify": 0.002,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "spell_power:haste",
+    "modify": 2.5,
+    "operation": "ADDITION"
+  }
+],
+"magistuarmory:gambeson_chestplate":[
+  {
+    "attribute": "combatroll:count",
+    "modify": 0.5,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "combatroll:recharge",
+    "modify": 2.0,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "minecraft:generic.attack_speed",
+    "modify": 0.05,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "minecraft:generic.movement_speed",
+    "modify": 0.002,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "spell_power:haste",
+    "modify": 2.5,
+    "operation": "ADDITION"
+  }
+],
+"magistuarmory:pantyhose":[
+  {
+    "attribute": "combatroll:count",
+    "modify": 0.5,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "combatroll:recharge",
+    "modify": 2.0,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "minecraft:generic.attack_speed",
+    "modify": 0.05,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "minecraft:generic.movement_speed",
+    "modify": 0.002,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "spell_power:haste",
+    "modify": 2.5,
+    "operation": "ADDITION"
+  }
+],
+"magistuarmory:gambeson_boots":[
+  {
+    "attribute": "combatroll:count",
+    "modify": 0.5,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "combatroll:recharge",
+    "modify": 2.0,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "minecraft:generic.attack_speed",
+    "modify": 0.05,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "minecraft:generic.movement_speed",
+    "modify": 0.002,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "spell_power:haste",
+    "modify": 2.5,
+    "operation": "ADDITION"
+  }
+]
+}

@@ -1,0 +1,72 @@
+{
+  "attributes": {
+    "attack_range": 2.8,
+    "category": "rapier",
+    "attacks": [
+      {
+        "hitbox": "HORIZONTAL_PLANE",
+        "damage_multiplier": 1.3,
+        "angle": 120,
+        "upswing": 0.5,
+        "animation": "bettercombat:one_handed_slash_switch_blade_left",
+        "swing_sound": {
+          "id": "bettercombat:rapier_slash"
+        }
+      },
+      {
+        "hitbox": "FORWARD_BOX",
+        "damage_multiplier": 1.3,
+        "conditions": ["MAIN_HAND_ONLY"],
+        "angle": 0,
+        "upswing": 0.5,
+        "animation": "bettercombat:one_handed_stab",
+        "swing_sound": {
+          "id": "bettercombat:rapier_stab"
+        }
+      },
+      {
+        "hitbox": "FORWARD_BOX",
+        "damage_multiplier": 1.3,
+        "conditions": ["DUAL_WIELDING_SAME_CATEGORY", "OFF_HAND_ONLY"],
+        "angle": 0,
+        "upswing": 0.5,
+        "animation": "bettercombat:one_handed_uppercut_right",
+        "swing_sound": {
+          "id": "bettercombat:rapier_stab"
+        }
+      },
+      {
+        "hitbox": "HORIZONTAL_PLANE",
+        "damage_multiplier": 1.3,
+        "angle": 120,
+        "upswing": 0.5,
+        "animation": "bettercombat:one_handed_slash_switch_blade_right",
+        "swing_sound": {
+          "id": "bettercombat:rapier_slash"
+        }
+      },
+      {
+        "hitbox": "FORWARD_BOX",
+        "damage_multiplier": 1.3,
+        "conditions": ["OFF_HAND_ONLY"],
+        "angle": 0,
+        "upswing": 0.5,
+        "animation": "bettercombat:one_handed_stab",
+        "swing_sound": {
+          "id": "bettercombat:rapier_stab"
+        }
+      },
+      {
+        "hitbox": "FORWARD_BOX",
+        "damage_multiplier": 1.5,
+        "conditions": ["DUAL_WIELDING_SAME_CATEGORY", "MAIN_HAND_ONLY"],
+        "angle": 0,
+        "upswing": 0.5,
+        "animation": "bettercombat:one_handed_uppercut_right",
+        "swing_sound": {
+          "id": "bettercombat:rapier_stab"
+        }
+      }
+    ]
+  }
+}

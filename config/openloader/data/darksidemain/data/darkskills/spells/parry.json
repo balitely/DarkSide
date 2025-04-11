@@ -1,0 +1,33 @@
+{
+  "school": "PHYSICAL_MELEE",
+  "range": 0,
+  "learn": {
+    "tier": 1
+  },
+  "cast": {
+    "duration": 0.0
+  },
+  "release": {
+    "animation": "darkskills:parry",
+    "target": {
+      "type": "SELF"
+    }
+  },
+  "impact": [
+  {
+    "action": {
+      "type": "STATUS_EFFECT",
+      "status_effect": {
+        "apply_mode": "SET",
+        "duration": 1,
+        "amplifier": 0,
+        "effect_id": "kubejs:parry",
+        "show_particles": false
+      }
+    }
+  }
+  ],
+  "cost": {
+    "cooldown_duration": 3
+  }
+}

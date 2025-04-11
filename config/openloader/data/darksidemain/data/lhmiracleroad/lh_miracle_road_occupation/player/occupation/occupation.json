@@ -1,0 +1,340 @@
+[
+  {
+    "id": "assassin",
+    "init_difficulty_level": 0,
+    "init_attribute": [
+      {
+        "id": "hp",
+        "level": 13
+      },
+      {
+        "id": "focus",
+        "level": 8
+      },
+      {
+        "id": "power",
+        "level": 10
+      },
+      {
+        "id": "sturdy",
+        "level": 9
+      },
+      {
+        "id": "faith",
+        "level": 8
+      },
+      {
+        "id": "brain",
+        "level": 11
+      },
+      {
+        "id": "agile",
+        "level": 15
+      },
+      {
+        "id": "trick",
+        "level": 14
+      },
+      {
+        "id": "luck",
+        "level": 11
+      }
+    ]
+  },
+  {
+    "id": "knight",
+    "init_difficulty_level": 0,
+    "init_attribute": [
+      {
+        "id": "hp",
+        "level": 14
+      },
+      {
+        "id": "focus",
+        "level": 9
+      },
+      {
+        "id": "power",
+        "level": 15
+      },
+      {
+        "id": "sturdy",
+        "level": 14
+      },
+      {
+        "id": "faith",
+        "level": 10
+      },
+      {
+        "id": "brain",
+        "level": 8
+      },
+      {
+        "id": "agile",
+        "level": 10
+      },
+      {
+        "id": "trick",
+        "level": 10
+      },
+      {
+        "id": "luck",
+        "level": 9
+      }
+    ]
+  },
+  {
+    "id": "mage",
+    "init_difficulty_level": 0,
+    "conditions": [
+    ],
+    "init_attribute": [
+      {
+        "id": "hp",
+        "level": 8
+      },
+      {
+        "id": "focus",
+        "level": 16
+      },
+      {
+        "id": "power",
+        "level": 10
+      },
+      {
+        "id": "sturdy",
+        "level": 8
+      },
+      {
+        "id": "faith",
+        "level": 8
+      },
+      {
+        "id": "brain",
+        "level": 19
+      },
+      {
+        "id": "agile",
+        "level": 9
+      },
+      {
+        "id": "trick",
+        "level": 11
+      },
+      {
+        "id": "luck",
+        "level": 10
+      }
+    ]
+  },
+  {
+    "id": "outcast",
+    "init_difficulty_level": 0,
+    "init_attribute": [
+      {
+        "id": "hp",
+        "level": 10
+      },
+      {
+        "id": "focus",
+        "level": 10
+      },
+      {
+        "id": "power",
+        "level": 10
+      },
+      {
+        "id": "sturdy",
+        "level": 10
+      },
+      {
+        "id": "faith",
+        "level": 10
+      },
+      {
+        "id": "brain",
+        "level": 10
+      },
+      {
+        "id": "agile",
+        "level": 10
+      },
+      {
+        "id": "trick",
+        "level": 10
+      },
+      {
+        "id": "luck",
+        "level": 10
+      }
+    ]
+  },
+  {
+    "id": "ranger",
+    "init_difficulty_level": 0,
+    "init_attribute": [
+      {
+        "id": "hp",
+        "level": 11
+      },
+      {
+        "id": "focus",
+        "level": 9
+      },
+      {
+        "id": "power",
+        "level": 8
+      },
+      {
+        "id": "sturdy",
+        "level": 12
+      },
+      {
+        "id": "faith",
+        "level": 7
+      },
+      {
+        "id": "brain",
+        "level": 10
+      },
+      {
+        "id": "agile",
+        "level": 14
+      },
+      {
+        "id": "trick",
+        "level": 17
+      },
+      {
+        "id": "luck",
+        "level": 11
+      }
+    ]
+  },
+  {
+    "id": "brave",
+    "init_difficulty_level": 0,
+    "init_attribute": [
+      {
+        "id": "hp",
+        "level": 17
+      },
+      {
+        "id": "focus",
+        "level": 8
+      },
+      {
+        "id": "power",
+        "level": 21
+      },
+      {
+        "id": "sturdy",
+        "level": 14
+      },
+      {
+        "id": "brain",
+        "level": 6
+      },
+      {
+        "id": "agile",
+        "level": 8
+      },
+      {
+        "id": "trick",
+        "level": 8
+      },
+      {
+        "id": "luck",
+        "level": 9
+      },
+      {
+        "id": "faith",
+        "level": 8
+      }
+    ]
+  },
+  {
+    "id": "emagic",
+    "init_difficulty_level": 0,
+    "init_attribute": [
+      {
+        "id": "hp",
+        "level": 8
+      },
+      {
+        "id": "focus",
+        "level": 16
+      },
+      {
+        "id": "power",
+        "level": 8
+      },
+      {
+        "id": "sturdy",
+        "level": 9
+      },
+      {
+        "id": "brain",
+        "level": 10
+      },
+      {
+        "id": "agile",
+        "level": 9
+      },
+      {
+        "id": "trick",
+        "level": 12
+      },
+      {
+        "id": "luck",
+        "level": 9
+      },
+      {
+        "id": "faith",
+        "level": 18
+      }
+    ]
+  },
+  {
+    "id": "priest",
+    "init_difficulty_level": 0,
+    "init_attribute": [
+      {
+        "id": "hp",
+        "level": 6
+      },
+      {
+        "id": "focus",
+        "level": 17
+      },
+      {
+        "id": "power",
+        "level": 8
+      },
+      {
+        "id": "sturdy",
+        "level": 7
+      },
+      {
+        "id": "brain",
+        "level": 13
+      },
+      {
+        "id": "agile",
+        "level": 9
+      },
+      {
+        "id": "trick",
+        "level": 11
+      },
+      {
+        "id": "luck",
+        "level": 9
+      },
+      {
+        "id": "faith",
+        "level": 19
+      }
+    ]
+  }
+]

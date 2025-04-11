@@ -1,0 +1,10 @@
+
+["Potion Level Fix"]
+	#These settings will only apply when you first enter the world. Subsequently, you can control the attributes in-game.
+	#The larger this number, the higher the probability of a subsequent attack. Range:0~100, default: 15.0
+	"Attack Again Probability" = 15.0
+	#The damage percentage of a subsequent attack, default: 0.35
+	"Attack Again Percentage" = 0.35
+	#The frequency of subsequent attacks, default: 1.0
+	"Attack Again Frequency" = 1.0
+

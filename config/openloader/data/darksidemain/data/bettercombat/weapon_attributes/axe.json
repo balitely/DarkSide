@@ -1,0 +1,53 @@
+{
+  "attributes": {
+    "attack_range": 2.6,
+    "category": "axe",
+    "attacks": [
+      {
+        "hitbox": "VERTICAL_PLANE",
+        "damage_multiplier": 1.2,
+        "angle": 90,
+        "upswing": 0.5,
+        "animation": "bettercombat:one_handed_slam",
+        "swing_sound": {
+          "id": "bettercombat:mace_slash"
+        }
+      },
+      {
+        "hitbox": "HORIZONTAL_PLANE",
+        "conditions": ["NOT_DUAL_WIELDING"],
+        "damage_multiplier": 1.5,
+        "angle": 180,
+        "upswing": 0.5,
+        "animation": "bettercombat:one_handed_slash_horizontal_left",
+        "swing_sound": {
+          "id": "bettercombat:axe_slash"
+        }
+      },
+      {
+        "hitbox": "FORWARD_BOX",
+        "conditions": ["DUAL_WIELDING_SAME_CATEGORY", "MAIN_HAND_ONLY"],
+        "damage_multiplier": 1.6,
+        "angle": 0,
+        "upswing": 0.5,
+        "animation": "bettercombat:dual_handed_slash_cross",
+        "swing_sound": {
+          "id": "bettercombat:axe_slash",
+          "pitch": 0.8
+        }
+      },
+      {
+        "hitbox": "FORWARD_BOX",
+        "conditions": ["DUAL_WIELDING_SAME_CATEGORY", "OFF_HAND_ONLY"],
+        "damage_multiplier": 1.7,
+        "angle": 0,
+        "upswing": 0.5,
+        "animation": "bettercombat:dual_handed_slash_uncross",
+        "swing_sound": {
+          "id": "bettercombat:axe_slash",
+          "pitch": 1.2
+        }
+      }
+    ]
+  }
+}
