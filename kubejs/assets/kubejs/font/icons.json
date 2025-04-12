@@ -1,0 +1,15 @@
+{
+	"providers": [
+		{
+			"type": "bitmap",
+			"flie": "kubejs:icons/icons.png",
+			"ascent": 13,
+			"hight": 13,
+			"chars": [
+				"\uEA01\uEA02\uEA03\uEA04\uEA05\uEA06\uEA07\uEA08\uEA09\uEA10\uEA11\uEA12",
+				"\uEA13\uEA14\uEA15\uEA16\uEA17\uEA18\uEA19\uEA20\uEA21\uEA21\uEA23\uEA24",
+				"\uEA25\uEA26\uEA27\uEA28\uEA29\uEA30\uEA31\uEA32\uEA33\uEA34\uEA35\uEA36"
+			]
+		}
+	]
+}
