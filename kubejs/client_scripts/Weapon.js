@@ -310,7 +310,7 @@ ItemEvents.tooltip((event) => {
 			//交易武器
 			"magistuarmory:steel_concavehalberd",
 		],
-		Text.translatable("text.kubejs.tooltips.greatsword")
+		Text.translatable("text.kubejs.tooltips.halberd")
 	);
 	event.add(
 		[
@@ -329,7 +329,7 @@ ItemEvents.tooltip((event) => {
 			//交易武器
 			"magistuarmory:steel_zweihander",
 		],
-		Text.translatable("text.kubejs.tooltips.halberd")
+		Text.translatable("text.kubejs.tooltips.greatsword")
 	);
 	event.add(
 		["simplyswords:iron_greataxe", "simplyswords:gold_greataxe", "simplyswords:diamond_greataxe", "simplyswords:netherite_greataxe"],
