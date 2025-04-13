@@ -1,8 +1,8 @@
 {
 	"kubejs.attribute.name.generic.armor": "\uEA04",
 	"kubejs.attribute.name.generic.armor_toughness": "\uEA06",
-	"kubejs.attribute.name.generic.knockback_resistance": "\uEA03",
-	"kubejs.attribute.name.combat_roll.recharge": "\uEA03",
+	"kubejs.attribute.name.generic.attack_damage": "\uEA02",
+	"kubejs.attribute.name.generic.attack_speed": "\uEA15",
 	"kjs.comment": "manaAffinity Part======================================",
 	"text.kubejs.tooltips.strongreject": "§5Mana Affinity:strong reject",
 	"text.kubejs.tooltips.reject": "§5manaAffinity:reject",

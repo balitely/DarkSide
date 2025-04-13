@@ -1,8 +1,4 @@
 {
-	"kubejs.attribute.name.generic.armor": "\uEA04",
-	"kubejs.attribute.name.generic.armor_toughness": "\uEA06",
-	"kubejs.attribute.name.generic.knockback_resistance": "\uEA03",
-	"kubejs.attribute.name.combat_roll.recharge": "\uEA03",
 	"kjs.comment": "manaAffinity Part======================================",
 	"text.kubejs.tooltips.strongreject": "§5法术亲和:强排斥",
 	"text.kubejs.tooltips.reject": "§5法术亲和:排斥",
