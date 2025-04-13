@@ -1,10 +1,13 @@
 {
 	"providers": [
+		{ "type": "reference", "id": "minecraft:include/default" },
+		{ "type": "reference", "id": "minecraft:include/space" },
+		{ "type": "reference", "id": "minecraft:include/unifont" },
 		{
 			"type": "bitmap",
-			"flie": "kubejs:icons/icons.png",
-			"ascent": 13,
-			"hight": 13,
+			"file": "kubejs:icons/icons.png",
+			"ascent": 11,
+			"height": 11,
 			"chars": [
 				"\uEA01\uEA02\uEA03\uEA04\uEA05\uEA06\uEA07\uEA08\uEA09\uEA10\uEA11\uEA12",
 				"\uEA13\uEA14\uEA15\uEA16\uEA17\uEA18\uEA19\uEA20\uEA21\uEA21\uEA23\uEA24",
