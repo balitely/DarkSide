@@ -90,9 +90,15 @@ ItemEvents.modification((event) => {
 		["fantasy_weapons:weapon_cursed_blade", t.ra],
 	];
 
-	modifyItem.forEach(([item, r]) => {
+	modifyItem.forEach(([item, r, d, s]) => {
 		event.modify(item, (e) => {
 			e.rarity = r;
+			if (d) {
+				e.setAttackDamage(d);
+			}
+			if (s) {
+				e.setAttackSpeed(s);
+			}
 		});
 	});
 });
