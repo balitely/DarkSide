@@ -1,276 +1,217 @@
 ItemEvents.tooltip((event) => {
-    //轻盈
-    event.addAdvanced("immersive_armors:bone_helmet", (item, advanced, text) => {
-        text.add(1,Text.gold("套装特性：额外的移动速度"))
-        text.add(1,Text.gold("部位独特属性：额外的法力恢复"))
-    })
-    event.addAdvanced("immersive_armors:bone_chestplate", (item, advanced, text) => {
-        text.add(1,Text.gold("套装特性：额外的移动速度"))
-        text.add(1,Text.gold("部位独特属性：额外的灵魂法术强度"))
-    })
-    event.addAdvanced("immersive_armors:bone_leggings", (item, advanced, text) => {
-        text.add(1,Text.gold("套装特性：额外的移动速度"))
-        text.add(1,Text.gold("部位独特属性：额外的法术急速"))
-    })
-    event.addAdvanced("immersive_armors:bone_boots", (item, advanced, text) => {
-        text.add(1,Text.gold("套装特性：额外的移动速度"))
-    })
+    event.add([
+        "immersive_armors:bone_helmet",
+        "immersive_armors:bone_chestplate",
+        "immersive_armors:bone_leggings",
+        "immersive_armors:bone_boots",
+    ], Text.translatable("text.kubejs.tooltips.movementspeedset"));
 
-    event.addAdvanced("majruszsdifficulty:tattered_helmet", (item, advanced, text) => {
-        text.add(1,Text.gold("部位独特属性：额外的法术暴击率"))
-    })
-    event.addAdvanced("majruszsdifficulty:tattered_chestplate", (item, advanced, text) => {
-        text.add(1,Text.gold("部位独特属性：额外的法术暴击伤害"))
-    })
-    event.addAdvanced("majruszsdifficulty:tattered_leggings", (item, advanced, text) => {
-        text.add(1,Text.gold("部位独特属性：额外的法术暴击率"))
-    })
-    event.addAdvanced("majruszsdifficulty:tattered_boots", (item, advanced, text) => {
-        text.add(1,Text.gold("部位独特属性：额外的法术暴击伤害"))
-    })
+    event.add([
+        "immersive_armors:bone_helmet",
+    ], Text.translatable("text.kubejs.tooltips.manaregenslot"));
 
-    event.addAdvanced("rogues:rogue_armor_head", (item, advanced, text) => {
-        text.add(1,Text.gold("套装特性：额外的移动速度+攻击速度"))
-        text.add(1,Text.gold("部位独特属性：额外的暴击率"))
-    })
-    event.addAdvanced("rogues:rogue_armor_chest", (item, advanced, text) => {
-        text.add(1,Text.gold("套装特性：额外的移动速度+攻击速度"))
-        text.add(1,Text.gold("部位独特属性：额外的穿透伤害"))
-    })
-    event.addAdvanced("rogues:rogue_armor_legs", (item, advanced, text) => {
-        text.add(1,Text.gold("套装特性：额外的移动速度+攻击速度"))
-        text.add(1,Text.gold("部位独特属性：额外的穿透伤害"))
-    })
-    event.addAdvanced("rogues:rogue_armor_feet", (item, advanced, text) => {
-        text.add(1,Text.gold("套装特性：额外的移动速度+攻击速度"))
-        text.add(1,Text.gold("部位独特属性：额外的运气值"))
-    })
+    event.add([
+        "composite_material:amethyst_helmet",
+        "composite_material:amethyst_chestplate",
+        "composite_material:amethyst_leggings",
+        "composite_material:amethyst_boots",
+    ], Text.translatable("text.kubejs.tooltips.manaregenset"));
 
-    event.addAdvanced("magistuarmory:gambeson_chestplate", (item, advanced, text) => {
-        text.add(1,Text.gold("部位独特属性：额外的物理伤害防护"))
-    })
-    //较轻
-    event.addAdvanced("minecraft:leather_chestplate", (item, advanced, text) => {
-        text.add(1,Text.gold("部位独特属性：额外的远程武器装填速度"))
-    })
+    event.add([
+        "immersive_armors:bone_chestplate",
+    ], Text.translatable("text.kubejs.tooltips.soulspellpower"));
 
-    event.addAdvanced("archers:archer_armor_head", (item, advanced, text) => {
-        text.add(1,Text.gold("套装特性：额外的基础远程攻击力"))
-        text.add(1,Text.gold("部位独特属性：额外的每秒技力恢复"))
-    })
-    event.addAdvanced("archers:archer_armor_chest", (item, advanced, text) => {
-        text.add(1,Text.gold("套装特性：额外的基础远程攻击力"))
-        text.add(1,Text.gold("部位独特属性：额外的远程武器装填速度"))
-    })
-    event.addAdvanced("archers:archer_armor_legs", (item, advanced, text) => {
-        text.add(1,Text.gold("套装特性：额外的基础远程攻击力"))
-        text.add(1,Text.gold("部位独特属性：最大闪避充能+1"))
-    })
-    event.addAdvanced("archers:archer_armor_feet", (item, advanced, text) => {
-        text.add(1,Text.gold("套装特性：额外的基础远程攻击力"))
-        text.add(1,Text.gold("部位独特属性：额外的闪避冷却回复速度"))
-    })
+    event.add([
+        "immersive_armors:bone_leggings",
+        "magistuarmory:crusader_boots",
+        "composite_material:amethyst_leggings",
+        "minecraft:diamond_boots",
+        "composite_material:obsidian_boots"
+    ], Text.translatable("text.kubejs.tooltips.spellhaste"));
 
-    //正常
-    event.addAdvanced("magistuarmory:cuirassier_helmet", (item, advanced, text) => {
-        text.add(1,Text.gold("部位独特属性：额外的单次攻击技力恢复"))
-    })
-    event.addAdvanced("magistuarmory:cuirassier_chestplate", (item, advanced, text) => {
-        text.add(1,Text.gold("部位独特属性：额外的物理伤害防护"))
-    })
+    event.add([
+        "majruszsdifficulty:tattered_helmet",
+        "majruszsdifficulty:tattered_leggings"
+    ], Text.translatable("text.kubejs.tooltips.spellcriticalchance"));
 
-    event.addAdvanced("magistuarmory:lamellar_chestplate", (item, advanced, text) => {
-        text.add(1,Text.gold("部位独特属性：额外的物理伤害防护"))
-    })
+    event.add([
+        "majruszsdifficulty:tattered_chestplate",
+        "majruszsdifficulty:tattered_boots"
+    ], Text.translatable("text.kubejs.tooltips.spellcriticaldamage"));
 
-    event.addAdvanced("minecraft:chainmail_chestplate", (item, advanced, text) => {
-        text.add(1,Text.gold("部位独特属性：额外的物理伤害防护"))
-    })
+    event.add([
+        "rogues:rogue_armor_head",
+        "rogues:rogue_armor_chest",
+        "rogues:rogue_armor_legs",
+        "rogues:rogue_armor_feet"
+    ], Text.translatable("text.kubejs.tooltips.movementspeedandattackspeed"));
 
-    event.addAdvanced("immersive_armors:wooden_helmet", (item, advanced, text) => {
-        text.add(1,Text.gold("套装特性：额外的弹射物与爆炸保护"))
-    })
-    event.addAdvanced("immersive_armors:wooden_chestplate", (item, advanced, text) => {
-        text.add(1,Text.gold("套装特性：额外的弹射物与爆炸保护"))
-    })
-    event.addAdvanced("immersive_armors:wooden_leggings", (item, advanced, text) => {
-        text.add(1,Text.gold("套装特性：额外的弹射物与爆炸保护"))
-    })
-    event.addAdvanced("immersive_armors:wooden_boots", (item, advanced, text) => {
-        text.add(1,Text.gold("套装特性：额外的弹射物与爆炸保护"))
-    })
+    event.add([
+        "rogues:rogue_armor_head",
+        "mutantmonsters:mutant_skeleton_skull"
+    ], Text.translatable("text.kubejs.tooltips.criticalrate"));
 
-    event.addAdvanced("composite_material:copper_helmet", (item, advanced, text) => {
-        text.add(1,Text.gold("套装特性：额外的击退抗性"))
-    })
-    event.addAdvanced("composite_material:copper_chestplate", (item, advanced, text) => {
-        text.add(1,Text.gold("套装特性：额外的击退抗性"))
-    })
-    event.addAdvanced("composite_material:copper_leggings", (item, advanced, text) => {
-        text.add(1,Text.gold("套装特性：额外的击退抗性"))
-    })
-    event.addAdvanced("composite_material:copper_boots", (item, advanced, text) => {
-        text.add(1,Text.gold("套装特性：额外的击退抗性"))
-    })
+    event.add([
+        "rogues:rogue_armor_chest",
+        "rogues:rogue_armor_legs"
+    ], Text.translatable("text.kubejs.tooltips.piercingdamage"));
 
-    event.addAdvanced("mutantmonsters:mutant_skeleton_skull", (item, advanced, text) => {
-        text.add(1,Text.gold("部位独特属性：额外的暴击率"))
-    })
-    event.addAdvanced("mutantmonsters:mutant_skeleton_chestplate", (item, advanced, text) => {
-        text.add(1,Text.gold("部位独特属性：额外的百分比远程攻击力"))
-    })
-    event.addAdvanced("mutantmonsters:mutant_skeleton_leggings", (item, advanced, text) => {
-        text.add(1,Text.gold("部位独特属性：额外的远程武器装填速度"))
-    })
-    event.addAdvanced("mutantmonsters:mutant_skeleton_boots", (item, advanced, text) => {
-        text.add(1,Text.gold("部位独特属性：额外的移动速度"))
-    })
+    event.add([
+        "rogues:rogue_armor_feet"
+    ], Text.translatable("text.kubejs.tooltips.luck"));
 
-    //偏重
-    event.addAdvanced("minecraft:iron_helmet", (item, advanced, text) => {
-        text.add(1,Text.gold("套装特性：额外的物理伤害防护"))
-    })
-    event.addAdvanced("minecraft:iron_chestplate", (item, advanced, text) => {
-        text.add(1,Text.gold("套装特性：额外的物理伤害防护"))
-    })
-    event.addAdvanced("minecraft:iron_leggings", (item, advanced, text) => {
-        text.add(1,Text.gold("套装特性：额外的物理伤害防护"))
-    })
-    event.addAdvanced("minecraft:iron_boots", (item, advanced, text) => {
-        text.add(1,Text.gold("套装特性：额外的物理伤害防护"))
-    })
+    event.add([
+        "magistuarmory:gambeson_chestplate",
+        "magistuarmory:cuirassier_chestplate",
+        "magistuarmory:lamellar_chestplate",
+        "minecraft:chainmail_chestplate",
+        "magistuarmory:greathelm",
+        "magistuarmory:xivcenturyknight_leggings",
+        "magistuarmory:xivcenturyknight_boots",
+        "composite_material:amethyst_chestplate",
+        "minecraft:diamond_leggings",
+        "composite_material:obsidian_helmet"
+    ], Text.translatable("text.kubejs.tooltips.reducedamageslot"));
 
-    event.addAdvanced("magistuarmory:face_helmet", (item, advanced, text) => {
-        text.add(1,Text.gold("套装特性：额外的物理伤害防护"))
-        text.add(1,Text.gold("部位独特属性：额外的盔甲韧性"))
-    })
-    event.addAdvanced("slavicarmory:rus_chainmail_coif", (item, advanced, text) => {
-        text.add(1,Text.gold("套装特性：额外的物理伤害防护"))
-        text.add(1,Text.gold("部位独特属性：额外的基础物理攻击力"))
-    })
-    event.addAdvanced("slavicarmory:rus_chainmail_chestplate", (item, advanced, text) => {
-        text.add(1,Text.gold("套装特性：额外的物理伤害防护"))
-        text.add(1,Text.gold("部位独特属性：额外的百分比物理攻击力"))
-    })
-    event.addAdvanced("slavicarmory:rus_chainmail_leggings", (item, advanced, text) => {
-        text.add(1,Text.gold("套装特性：额外的物理伤害防护"))
-        text.add(1,Text.gold("部位独特属性：额外的攻击速度"))
-    })
-    event.addAdvanced("slavicarmory:rus_chainmail_boots", (item, advanced, text) => {
-        text.add(1,Text.gold("套装特性：额外的物理伤害防护"))
-        text.add(1,Text.gold("部位独特属性：额外的移动速度"))
-    })
+    event.add([
+        "minecraft:iron_helmet",
+        "minecraft:iron_chestplate",
+        "minecraft:iron_leggings",
+        "minecraft:iron_boots",
+        "magistuarmory:face_helmet",
+        "slavicarmory:rus_chainmail_coif",
+        "slavicarmory:rus_chainmail_chestplate",
+        "slavicarmory:rus_chainmail_leggings",
+        "slavicarmory:rus_chainmail_boots"
+    ], Text.translatable("text.kubejs.tooltips.reducedamageset"));
 
-    event.addAdvanced("minecraft:golden_helmet", (item, advanced, text) => {
-        text.add(1,Text.gold("套装特性：额外的法力护盾"))
-    })
-    event.addAdvanced("minecraft:golden_chestplate", (item, advanced, text) => {
-        text.add(1,Text.gold("套装特性：额外的法力护盾"))
-    })
-    event.addAdvanced("minecraft:golden_leggings", (item, advanced, text) => {
-        text.add(1,Text.gold("套装特性：额外的法力护盾"))
-    })
-    event.addAdvanced("minecraft:golden_boots", (item, advanced, text) => {
-        text.add(1,Text.gold("套装特性：额外的法力护盾"))
-    })
+    event.add([
+        "minecraft:leather_chestplate",
+        "archers:archer_armor_chest",
+        "mutantmonsters:mutant_skeleton_leggings",
+    ], Text.translatable("text.kubejs.tooltips.drawspeed"));
 
-    event.addAdvanced("magistuarmory:greathelm", (item, advanced, text) => {
-        text.add(1,Text.gold("套装特性：额外的盔甲韧性"))
-        text.add(1,Text.gold("部位独特属性：额外的物理伤害防护"))
-    })
-    event.addAdvanced("magistuarmory:crusader_chestplate", (item, advanced, text) => {
-        text.add(1,Text.gold("套装特性：额外的盔甲韧性"))
-        text.add(1,Text.gold("部位独特属性：额外的基础物理攻击力"))
-    })
-    event.addAdvanced("magistuarmory:crusader_leggings", (item, advanced, text) => {
-        text.add(1,Text.gold("套装特性：额外的盔甲韧性"))
-        text.add(1,Text.gold("部位独特属性：额外的技力消耗减免"))
-    })
-    event.addAdvanced("magistuarmory:crusader_boots", (item, advanced, text) => {
-        text.add(1,Text.gold("套装特性：额外的盔甲韧性"))
-        text.add(1,Text.gold("部位独特属性：额外的法术急速"))
-    })
+    event.add([
+        "archers:archer_armor_head",
+        "archers:archer_armor_chest",
+        "archers:archer_armor_legs",
+        "archers:archer_armor_feet"
+    ], Text.translatable("text.kubejs.tooltips.rangeddamageset"));
 
-    event.addAdvanced("magistuarmory:bascinet", (item, advanced, text) => {
-        text.add(1,Text.gold("套装特性：额外的盔甲韧性"))
-        text.add(1,Text.gold("部位独特属性：额外的基础攻击力"))
-    })
-    event.addAdvanced("magistuarmory:xivcenturyknight_chestplate", (item, advanced, text) => {
-        text.add(1,Text.gold("套装特性：额外的盔甲韧性"))
-        text.add(1,Text.gold("部位独特属性：额外的击退抗性"))
-    })
-    event.addAdvanced("magistuarmory:xivcenturyknight_leggings", (item, advanced, text) => {
-        text.add(1,Text.gold("套装特性：额外的盔甲韧性"))
-        text.add(1,Text.gold("部位独特属性：额外的物理伤害防护"))
-    })
-    event.addAdvanced("magistuarmory:xivcenturyknight_boots", (item, advanced, text) => {
-        text.add(1,Text.gold("套装特性：额外的盔甲韧性"))
-        text.add(1,Text.gold("部位独特属性：额外的物理伤害防护"))
-    })
+    event.add([
+        "mutantmonsters:mutant_skeleton_chestplate",
+    ], Text.translatable("text.kubejs.tooltips.rangeddamageslot"));
 
-    event.addAdvanced("composite_material:amethyst_helmet", (item, advanced, text) => {
-        text.add(1,Text.gold("套装特性：额外的每秒法力恢复"))
-        text.add(1,Text.gold("部位独特属性：额外的最大法力值"))
-    })
-    event.addAdvanced("composite_material:amethyst_chestplate", (item, advanced, text) => {
-        text.add(1,Text.gold("套装特性：额外的每秒法力恢复"))
-        text.add(1,Text.gold("部位独特属性：额外的物理伤害防护"))
-    })
-    event.addAdvanced("composite_material:amethyst_leggings", (item, advanced, text) => {
-        text.add(1,Text.gold("套装特性：额外的每秒法力恢复"))
-        text.add(1,Text.gold("部位独特属性：额外的法术急速"))
-    })
-    event.addAdvanced("composite_material:amethyst_boots", (item, advanced, text) => {
-        text.add(1,Text.gold("套装特性：额外的每秒法力恢复"))
-        text.add(1,Text.gold("部位独特属性：额外的法力护盾"))
-    })
+    event.add([
+        "archers:archer_armor_head",
+    ], Text.translatable("text.kubejs.tooltips.spregen"));
 
-    event.addAdvanced("magistuarmory:kettlehat", (item, advanced, text) => {
-        text.add(1,Text.gold("套装特性：额外的盔甲韧性"))
-    })
-    event.addAdvanced("magistuarmory:platemail_chestplate", (item, advanced, text) => {
-        text.add(1,Text.gold("套装特性：额外的盔甲韧性"))
-    })
-    event.addAdvanced("magistuarmory:platemail_leggings", (item, advanced, text) => {
-        text.add(1,Text.gold("套装特性：额外的盔甲韧性"))
-    })
-    event.addAdvanced("magistuarmory:platemail_boots", (item, advanced, text) => {
-        text.add(1,Text.gold("套装特性：额外的盔甲韧性"))
-    })
+    event.add([
+        "archers:archer_armor_legs",
+    ], Text.translatable("text.kubejs.tooltips.extraroll"));
 
-    //沉重
-    event.addAdvanced("minecraft:diamond_helmet", (item, advanced, text) => {
-        text.add(1,Text.gold("套装特性：额外的盔甲韧性"))
-        text.add(1,Text.gold("部位独特属性：额外的每秒法力与技力恢复"))
-    })
-    event.addAdvanced("minecraft:diamond_chestplate", (item, advanced, text) => {
-        text.add(1,Text.gold("套装特性：额外的盔甲韧性"))
-        text.add(1,Text.gold("部位独特属性：额外的法力护盾"))
-    })
-    event.addAdvanced("minecraft:diamond_leggings", (item, advanced, text) => {
-        text.add(1,Text.gold("套装特性：额外的盔甲韧性"))
-        text.add(1,Text.gold("部位独特属性：额外的物理伤害防护"))
-    })
-    event.addAdvanced("minecraft:diamond_boots", (item, advanced, text) => {
-        text.add(1,Text.gold("套装特性：额外的盔甲韧性"))
-        text.add(1,Text.gold("部位独特属性：额外的法术急速"))
-    })
+    event.add([
+        "archers:archer_armor_feet",
+    ], Text.translatable("text.kubejs.tooltips.rollrecharge"));
 
-    //极重
-    event.addAdvanced("composite_material:obsidian_helmet", (item, advanced, text) => {
-        text.add(1,Text.gold("套装特性：额外的盔甲韧性+法力护盾"))
-        text.add(1,Text.gold("部位独特属性：额外的物理伤害防护"))
-    })
-    event.addAdvanced("composite_material:obsidian_chestplate", (item, advanced, text) => {
-        text.add(1,Text.gold("套装特性：额外的盔甲韧性+法力护盾"))
-        text.add(1,Text.gold("部位独特属性：额外的百分比减伤"))
-    })
-    event.addAdvanced("composite_material:obsidian_leggings", (item, advanced, text) => {
-        text.add(1,Text.gold("套装特性：额外的盔甲韧性+法力护盾"))
-        text.add(1,Text.gold("部位独特属性：额外的百分比伤害增加"))
-    })
-    event.addAdvanced("composite_material:obsidian_boots", (item, advanced, text) => {
-        text.add(1,Text.gold("套装特性：额外的盔甲韧性+法力护盾"))
-        text.add(1,Text.gold("部位独特属性：额外的法术急速"))
-    })
+    event.add([
+        "magistuarmory:cuirassier_helmet",
+    ], Text.translatable("text.kubejs.tooltips.spregenperattack"));
+
+    event.add([
+        "immersive_armors:wooden_helmet",
+        "immersive_armors:wooden_chestplate",
+        "immersive_armors:wooden_leggings",
+        "immersive_armors:wooden_boots"
+    ], Text.translatable("text.kubejs.tooltips.projectileandblastprotection"));
+
+    event.add([
+        "composite_material:copper_helmet",
+        "composite_material:copper_chestplate",
+        "composite_material:copper_leggings",
+        "composite_material:copper_boots"
+    ], Text.translatable("text.kubejs.tooltips.knockbackresistanceset"));
+
+    event.add([
+        "magistuarmory:xivcenturyknight_chestplate",
+    ], Text.translatable("text.kubejs.tooltips.knockbackresistanceslot"));
+
+    event.add([
+        "mutantmonsters:mutant_skeleton_boots",
+        "slavicarmory:rus_chainmail_boots",
+    ], Text.translatable("text.kubejs.tooltips.movementspeedslot"));
+
+    event.add([
+        "magistuarmory:face_helmet",
+    ], Text.translatable("text.kubejs.tooltips.armortoughnessslot"));
+
+    event.add([
+        "magistuarmory:greathelm",
+        "magistuarmory:crusader_chestplate",
+        "magistuarmory:crusader_leggings", 
+        "magistuarmory:crusader_boots",
+        "magistuarmory:bascinet",
+        "magistuarmory:xivcenturyknight_chestplate",
+        "magistuarmory:xivcenturyknight_leggings",
+        "magistuarmory:xivcenturyknight_boots",
+        "magistuarmory:kettlehat",
+        "magistuarmory:platemail_chestplate",
+        "magistuarmory:platemail_leggings",
+        "magistuarmory:platemail_boots",
+        "minecraft:diamond_helmet",
+        "minecraft:diamond_chestplate",
+        "minecraft:diamond_leggings",
+        "minecraft:diamond_boots"
+    ], Text.translatable("text.kubejs.tooltips.armortoughnessset"));
+
+    event.add([
+        "slavicarmory:rus_chainmail_coif",
+        "magistuarmory:crusader_chestplate",
+        "slavicarmory:rus_chainmail_chestplate",
+        "magistuarmory:bascinet",
+    ], Text.translatable("text.kubejs.tooltips.attackdamageslot"));
+
+    event.add([
+        "slavicarmory:rus_chainmail_leggings",
+    ], Text.translatable("text.kubejs.tooltips.attackspeedslot"));
+
+    event.add([
+        "minecraft:golden_helmet",
+        "minecraft:golden_chestplate",
+        "minecraft:golden_leggings",
+        "minecraft:golden_boots",
+    ], Text.translatable("text.kubejs.tooltips.manashieldset"));
+
+    event.add([
+        "composite_material:amethyst_boots",
+        "minecraft:diamond_chestplate",
+    ], Text.translatable("text.kubejs.tooltips.manashieldslot"));
+
+    event.add([
+        "magistuarmory:crusader_leggings",
+    ], Text.translatable("text.kubejs.tooltips.lessspcostslot"));
+
+    event.add([
+        "composite_material:amethyst_helmet",
+    ], Text.translatable("text.kubejs.tooltips.maxmanaslot"));
+
+    event.add([
+        "minecraft:diamond_helmet",
+    ], Text.translatable("text.kubejs.tooltips.manaandspregenslot"));
+
+    event.add([
+        "composite_material:obsidian_helmet",
+        "composite_material:obsidian_chestplate",
+        "composite_material:obsidian_leggings",
+        "composite_material:obsidian_boots",
+    ], Text.translatable("text.kubejs.tooltips.armortoughnessandmanashieldset"));
+
+    event.add([
+        "composite_material:obsidian_chestplate",
+    ], Text.translatable("text.kubejs.tooltips.damagereductionslot"));
+
+    event.add([
+        "composite_material:obsidian_leggings",
+    ], Text.translatable("text.kubejs.tooltips.increaseddamageslot"));
+
 })
