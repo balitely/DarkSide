@@ -6,7 +6,9 @@ ItemEvents.modification((event) => {
 		ep: "EPIC",
 	};
 
-	// 物品,稀有度
+	/**
+	 * @type {[物品:Ingredient_,稀有度:Internal.Rarity_,护甲值:number,韧性值:number]}
+	 */
 	let modifyArmor = [
 		//轻盈
 		["rogues:rogue_armor_head", t.uc],
@@ -62,9 +64,15 @@ ItemEvents.modification((event) => {
 		["composite_material:obsidian_boots", t.ep],
 	];
 
-	modifyArmor.forEach(([item, r]) => {
+	modifyArmor.forEach(([item, r, p, t]) => {
 		event.modify(item, (e) => {
 			e.rarity = r;
+			if (p && p == number) {
+				e.setArmorProtection(p);
+			}
+			if (t && t == number) {
+				e.setArmorToughness(t);
+			}
 		});
 	});
 });

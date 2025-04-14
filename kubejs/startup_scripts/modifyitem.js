@@ -6,6 +6,9 @@ ItemEvents.modification((event) => {
 		ep: "EPIC",
 	};
 
+	/**
+	 * @type {[物品:Ingredient_,稀有度:Internal.Rarity_,伤害:number,攻速:number]}
+	 */
 	let modifyItem = [
 		//匕首
 		["magistuarmoryaddon:steel_rondel_dagger", t.uc],
@@ -84,7 +87,7 @@ ItemEvents.modification((event) => {
 		["magistuarmory:silver_concavehalberd", t.uc],
 
 		//双手巨剑
-		["magistuarmory:steel_zweihander", t.uc],
+		["magistuarmory:steel_zweihander", t.uc, 1],
 		["magistuarmory:silver_zweihander", t.uc],
 		["fantasy_weapons:weapon_sharp_sword", t.ra],
 		["fantasy_weapons:weapon_cursed_blade", t.ra],
@@ -93,10 +96,10 @@ ItemEvents.modification((event) => {
 	modifyItem.forEach(([item, r, d, s]) => {
 		event.modify(item, (e) => {
 			e.rarity = r;
-			if (d) {
+			if (d && d == number) {
 				e.setAttackDamage(d);
 			}
-			if (s) {
+			if (s && s == number) {
 				e.setAttackSpeed(s);
 			}
 		});

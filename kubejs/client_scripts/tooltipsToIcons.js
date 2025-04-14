@@ -1,6 +1,7 @@
 ItemEvents.tooltip((event) => {
 	let { player } = Client;
 
+	// 是的只有有tag的物品才会有提示
 	function tooltipAdv(tool_tag) {
 		event.addAdvanced(
 			{ tag: tool_tag },
@@ -14,7 +15,7 @@ ItemEvents.tooltip((event) => {
 					tooltips.removeIf(($) => $.toString().includes("modifier") || Text.isEmpty($));
 					let comp = Text.empty();
 					if (player) {
-						let slot = onSlots(stack);
+						let slot = onSlots(stack); // 这个方法在底下
 						let equipped = player.getItemBySlot(slot);
 						let atrMap = stack.getAttributeModifiers(slot);
 						let otherMap = equipped.getAttributeModifiers(slot);
@@ -50,7 +51,7 @@ ItemEvents.tooltip((event) => {
 
 								if (amount) {
 									if (atr.descriptionId == "attribute.name.generic.attack_damage") {
-										vlaue += 2; //  让伤害数值回归原版数值需要+空手伤害
+										vlaue += 2; // 让伤害数值回归原版数值需要+空手伤害
 									}
 									let texT = {
 										// 这是大部分情况下都能使用的内容
@@ -89,6 +90,7 @@ ItemEvents.tooltip((event) => {
 			}
 		);
 	}
+	// 这里我指定了这俩tag
 	tooltipAdv("forge:armors");
 	tooltipAdv("kjs:tools");
 });
@@ -97,6 +99,7 @@ ItemEvents.tooltip((event) => {
  * @returns {Internal.EquipmentSlot}
  */
 let onSlots = (stack) => {
+	// 这是分拣装备部位
 	switch (true) {
 		case stack.hasTag("forge:armors/helmets"):
 			return "head";
